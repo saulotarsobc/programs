@@ -1,4 +1,3 @@
-```markdown
 # Comandos para Instalar Ferramentas de Desenvolvimento no Windows
 
 Este documento contém os comandos para instalar diversas ferramentas essenciais para o desenvolvimento no Windows utilizando o `winget`.
