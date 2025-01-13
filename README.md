@@ -144,11 +144,48 @@ winget install Docker.DockerDesktop --interactive
 
 ---
 
-## 11. Zoom
+## 11. **Zoom**
+
+Instala o Zoom para videoconferências:
 
 ```bash
 winget install --id Zoom.Zoom --interactive
 ```
+
+---
+
+## 12. **PowerToys**
+
+Instala o PowerToys para adicionar utilitários ao Windows:
+
+```bash
+winget install Microsoft.PowerToys --interactive
+```
+
+---
+
+## 13. **PowerShell**
+
+Instala o PowerShell:
+
+```bash
+winget install --id Microsoft.PowerShell --interactive
+```
+
+---
+
+## 13. **MEGA Sync**
+
+Instala o MEGA Sync para sincronização de arquivos:
+
+```bash
+winget install Mega.MEGASync --interactive
+```
+
+---
+
+
+
 
 ## Atualizações
 
