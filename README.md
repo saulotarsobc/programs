@@ -147,7 +147,7 @@ winget install Docker.DockerDesktop --interactive
 ## 11. Zoom
 
 ```bash
-winget install --id Zoom.Zoom
+winget install --id Zoom.Zoom --interactive
 ```
 
 ## Atualizações
