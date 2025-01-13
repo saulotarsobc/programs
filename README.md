@@ -130,9 +130,7 @@ Instala o Docker Desktop para criação e gerenciamento de contêineres:
 winget install Docker.DockerDesktop --interactive
 ```
 
----
-
-# Verificações Pós-Instalação
+### Verificações Pós-Instalação
 
 - **Verificar versão do Docker**:
   ```bash
@@ -146,7 +144,13 @@ winget install Docker.DockerDesktop --interactive
 
 ---
 
-# Atualizações
+## 11. Zoom
+
+```bash
+winget install --id Zoom.Zoom
+```
+
+## Atualizações
 
 Para atualizar todas as ferramentas instaladas via `winget`, execute:
 
