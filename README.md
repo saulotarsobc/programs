@@ -184,8 +184,15 @@ winget install Mega.MEGASync --interactive
 
 ---
 
+## 14. **MiniTool Partition Wizard Free**
 
+Instala o MiniTool Partition Wizard Free para gerenciamento de partições:
 
+```bash
+winget install MiniTool.PartitionWizard.Free --interactive
+```
+
+---
 
 ## Atualizações
 
