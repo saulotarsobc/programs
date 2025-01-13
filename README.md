@@ -19,7 +19,7 @@ winget install --id Microsoft.VisualStudioCode
 Instala o Git:
 
 ```bash
-winget install --id Git.Git --interactive
+winget install --id Git.Git -i
 ```
 
 ---
@@ -29,7 +29,7 @@ winget install --id Git.Git --interactive
 Instala o GitHub Desktop:
 
 ```bash
-winget install --id GitHub.GitHubDesktop --interactive
+winget install --id GitHub.GitHubDesktop -i
 ```
 
 ---
@@ -39,7 +39,7 @@ winget install --id GitHub.GitHubDesktop --interactive
 Instala o Node.js (LTS):
 
 ```bash
-winget install --id OpenJS.NodeJS.LTS --interactive
+winget install --id OpenJS.NodeJS.LTS -i
 ```
 
 ---
@@ -51,19 +51,19 @@ Instala o Sublime Text. Pode escolher entre várias versões.
 ### Sublime Text 4:
 
 ```bash
-winget install SublimeHQ.SublimeText.4 --interactive
+winget install SublimeHQ.SublimeText.4 -i
 ```
 
 ### Sublime Text 4 (Portátil):
 
 ```bash
-winget install SublimeHQ.SublimeText.4.Portable --interactive
+winget install SublimeHQ.SublimeText.4.Portable -i
 ```
 
 ### Sublime Text 3:
 
 ```bash
-winget install SublimeHQ.SublimeText.3 --interactive
+winget install SublimeHQ.SublimeText.3 -i
 ```
 
 ---
@@ -75,19 +75,19 @@ Instala o DBeaver para gerenciamento de bancos de dados.
 ### DBeaver Community Edition (Gratuito):
 
 ```bash
-winget install dbeaver.dbeaver --interactive
+winget install dbeaver.dbeaver -i
 ```
 
 ### DBeaver Enterprise Edition:
 
 ```bash
-winget install DBeaverCorp.DBeaverEnterpriseEdition --interactive
+winget install DBeaverCorp.DBeaverEnterpriseEdition -i
 ```
 
 ### DBeaver CE via Microsoft Store:
 
 ```bash
-winget install 9PNKDR50694P --interactive
+winget install 9PNKDR50694P -i
 ```
 
 ---
@@ -97,7 +97,7 @@ winget install 9PNKDR50694P --interactive
 Instala o Postman para testes de APIs:
 
 ```bash
-winget install Postman.Postman --interactive
+winget install Postman.Postman -i
 ```
 
 ---
@@ -107,7 +107,7 @@ winget install Postman.Postman --interactive
 Instala o Insomnia, uma alternativa ao Postman para testes de APIs:
 
 ```bash
-winget install Insomnia.Insomnia --interactive
+winget install Insomnia.Insomnia -i
 ```
 
 ---
@@ -117,7 +117,7 @@ winget install Insomnia.Insomnia --interactive
 Instala o Figma para design colaborativo:
 
 ```bash
-winget install Figma.Figma --interactive
+winget install Figma.Figma -i
 ```
 
 ---
@@ -127,7 +127,7 @@ winget install Figma.Figma --interactive
 Instala o Docker Desktop para criação e gerenciamento de contêineres:
 
 ```bash
-winget install Docker.DockerDesktop --interactive
+winget install Docker.DockerDesktop -i
 ```
 
 ### Verificações Pós-Instalação
@@ -149,7 +149,7 @@ winget install Docker.DockerDesktop --interactive
 Instala o Zoom para videoconferências:
 
 ```bash
-winget install --id Zoom.Zoom --interactive
+winget install --id Zoom.Zoom -i
 ```
 
 ---
@@ -159,7 +159,7 @@ winget install --id Zoom.Zoom --interactive
 Instala o PowerToys para adicionar utilitários ao Windows:
 
 ```bash
-winget install Microsoft.PowerToys --interactive
+winget install Microsoft.PowerToys -i
 ```
 
 ---
@@ -169,7 +169,7 @@ winget install Microsoft.PowerToys --interactive
 Instala o PowerShell:
 
 ```bash
-winget install --id Microsoft.PowerShell --interactive
+winget install --id Microsoft.PowerShell -i
 ```
 
 ---
@@ -179,7 +179,7 @@ winget install --id Microsoft.PowerShell --interactive
 Instala o MEGA Sync para sincronização de arquivos:
 
 ```bash
-winget install Mega.MEGASync --interactive
+winget install Mega.MEGASync -i
 ```
 
 ---
@@ -189,7 +189,15 @@ winget install Mega.MEGASync --interactive
 Instala o MiniTool Partition Wizard Free para gerenciamento de partições:
 
 ```bash
-winget install MiniTool.PartitionWizard.Free --interactive
+winget install MiniTool.PartitionWizard.Free -i
+```
+
+## 15. **JW Library**
+
+Instala o JW Library:
+
+```bash
+winget install "JW Library" -s msstore -i
 ```
 
 ---
