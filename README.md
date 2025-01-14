@@ -233,6 +233,18 @@ Instala o Gather, um aplicativo de reunião para Windows:
 winget install Gather.Gather -i
 ```
 
+---
+
+## 19. **MySQL Workbench**
+
+Instala o MySQL Workbench para design e gerenciamento de banco de dados:
+
+```bash
+winget install Oracle.MySQLWorkbench -i
+```
+
+---
+
 ## Atualizações
 
 Para atualizar todas as ferramentas instaladas via `winget`, execute:
