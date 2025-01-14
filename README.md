@@ -133,6 +133,7 @@ winget install Docker.DockerDesktop -i
 ### Verificações Pós-Instalação
 
 - **Verificar versão do Docker**:
+
   ```bash
   docker --version
   ```
@@ -192,6 +193,8 @@ Instala o MiniTool Partition Wizard Free para gerenciamento de partições:
 winget install MiniTool.PartitionWizard.Free -i
 ```
 
+---
+
 ## 15. **JW Library**
 
 Instala o JW Library:
@@ -201,6 +204,34 @@ winget install "JW Library" -s msstore -i
 ```
 
 ---
+
+## 16. **WhatsApp**
+
+Instala o WhatsApp:
+
+```bash
+winget install "WhatsApp" -s msstore -i
+```
+
+---
+
+## 17. **Unigram**
+
+Instala o Unigram, um cliente do Telegram para Windows:
+
+```bash
+winget install Telegram.Unigram -i
+```
+
+---
+
+## 18. **Gather**
+
+Instala o Gather, um aplicativo de reunião para Windows:
+
+```bash
+winget install Gather.Gather -i
+```
 
 ## Atualizações
 
