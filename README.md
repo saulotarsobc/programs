@@ -245,6 +245,16 @@ winget install Oracle.MySQLWorkbench -i
 
 ---
 
+## 20. **Raspberry Pi Imager**
+
+Instala o Raspberry Pi Imager:
+
+```bash
+winget install --id RaspberryPiFoundation.RaspberryPiImager -i
+```
+
+---
+
 ## Atualizações
 
 Para atualizar todas as ferramentas instaladas via `winget`, execute:
