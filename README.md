@@ -265,6 +265,16 @@ winget install --id Microsoft.AzureCLI -i
 
 ---
 
+## 22. **AWS CLI**
+
+Instala o AWS CLI:
+
+```bash
+winget install --id Amazon.AWSCLI -i
+```
+
+---
+
 ## Atualizações
 
 Para atualizar todas as ferramentas instaladas via `winget`, execute:
