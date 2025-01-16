@@ -255,6 +255,16 @@ winget install --id RaspberryPiFoundation.RaspberryPiImager -i
 
 ---
 
+## 21. **Azure CLI**
+
+Instala o Azure CLI:
+
+```bash
+winget install --id Microsoft.AzureCLI -i
+```
+
+---
+
 ## Atualizações
 
 Para atualizar todas as ferramentas instaladas via `winget`, execute:
