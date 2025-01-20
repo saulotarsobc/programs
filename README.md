@@ -275,6 +275,14 @@ winget install --id Amazon.AWSCLI -i
 
 ---
 
+## 23. Bitvise.SSH.Client
+
+Instalar o Bitvise Client
+
+```bash
+winget insatll --id Bitvise.SSH.Client -i
+```
+
 ## Atualizações
 
 Para atualizar todas as ferramentas instaladas via `winget`, execute:
