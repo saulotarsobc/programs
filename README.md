@@ -275,6 +275,12 @@ winget install --id Amazon.AWSCLI -i
 
 ---
 
+```bash
+winget install --id PostgreSQL.psqlODBC -i
+```
+
+---
+
 ## Atualizações
 
 Para atualizar todas as ferramentas instaladas via `winget`, execute:
