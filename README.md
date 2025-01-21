@@ -289,6 +289,10 @@ Instalar o Bitvise Client
 winget insatll --id Bitvise.SSH.Client -i
 ```
 
+```bash
+winget insatll --id PostgreSQL.psqlODBC -i
+```
+
 ## Atualizações
 
 Para atualizar todas as ferramentas instaladas via `winget`, execute:
