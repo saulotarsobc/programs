@@ -275,13 +275,7 @@ winget install --id Amazon.AWSCLI -i
 
 ---
 
-```bash
-winget install --id PostgreSQL.psqlODBC -i
-```
-
----
-
-## 23. Bitvise.SSH.Client
+## 23. Bitvise SSH Client
 
 Instalar o Bitvise Client
 
@@ -295,6 +289,10 @@ winget insatll --id PostgreSQL.psqlODBC -i
 
 ```bash
 winget install --id 'DigitalOcean.Doctl' -i
+```
+
+```bash
+winget install --id Mikrotik.Winbox.Beta -i;
 ```
 
 ## Atualizações
