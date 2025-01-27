@@ -19,7 +19,7 @@ winget install --id Microsoft.VisualStudioCode
 Instala o Git:
 
 ```bash
-winget install --id Git.Git -i
+winget install --id Git.Git -i;
 ```
 
 ---
@@ -29,7 +29,7 @@ winget install --id Git.Git -i
 Instala o GitHub Desktop:
 
 ```bash
-winget install --id GitHub.GitHubDesktop -i
+winget install --id GitHub.GitHubDesktop -i;
 ```
 
 ---
@@ -39,7 +39,7 @@ winget install --id GitHub.GitHubDesktop -i
 Instala o Node.js (LTS):
 
 ```bash
-winget install --id OpenJS.NodeJS.LTS -i
+winget install --id OpenJS.NodeJS.LTS -i;
 ```
 
 ---
@@ -51,19 +51,19 @@ Instala o Sublime Text. Pode escolher entre várias versões.
 ### Sublime Text 4:
 
 ```bash
-winget install SublimeHQ.SublimeText.4 -i
+winget install SublimeHQ.SublimeText.4 -i;
 ```
 
 ### Sublime Text 4 (Portátil):
 
 ```bash
-winget install SublimeHQ.SublimeText.4.Portable -i
+winget install SublimeHQ.SublimeText.4.Portable -i;
 ```
 
 ### Sublime Text 3:
 
 ```bash
-winget install SublimeHQ.SublimeText.3 -i
+winget install SublimeHQ.SublimeText.3 -i;
 ```
 
 ---
@@ -75,19 +75,19 @@ Instala o DBeaver para gerenciamento de bancos de dados.
 ### DBeaver Community Edition (Gratuito):
 
 ```bash
-winget install dbeaver.dbeaver -i
+winget install dbeaver.dbeaver -i;
 ```
 
 ### DBeaver Enterprise Edition:
 
 ```bash
-winget install DBeaverCorp.DBeaverEnterpriseEdition -i
+winget install DBeaverCorp.DBeaverEnterpriseEdition -i;
 ```
 
 ### DBeaver CE via Microsoft Store:
 
 ```bash
-winget install 9PNKDR50694P -i
+winget install 9PNKDR50694P -i;
 ```
 
 ---
@@ -97,7 +97,7 @@ winget install 9PNKDR50694P -i
 Instala o Postman para testes de APIs:
 
 ```bash
-winget install Postman.Postman -i
+winget install Postman.Postman -i;
 ```
 
 ---
@@ -107,7 +107,7 @@ winget install Postman.Postman -i
 Instala o Insomnia, uma alternativa ao Postman para testes de APIs:
 
 ```bash
-winget install Insomnia.Insomnia -i
+winget install Insomnia.Insomnia -i;
 ```
 
 ---
@@ -117,7 +117,7 @@ winget install Insomnia.Insomnia -i
 Instala o Figma para design colaborativo:
 
 ```bash
-winget install Figma.Figma -i
+winget install Figma.Figma -i;
 ```
 
 ---
@@ -127,7 +127,7 @@ winget install Figma.Figma -i
 Instala o Docker Desktop para criação e gerenciamento de contêineres:
 
 ```bash
-winget install Docker.DockerDesktop -i
+winget install Docker.DockerDesktop -i;
 ```
 
 ### Verificações Pós-Instalação
@@ -150,7 +150,7 @@ winget install Docker.DockerDesktop -i
 Instala o Zoom para videoconferências:
 
 ```bash
-winget install --id Zoom.Zoom -i
+winget install --id Zoom.Zoom -i;
 ```
 
 ---
@@ -160,7 +160,7 @@ winget install --id Zoom.Zoom -i
 Instala o PowerToys para adicionar utilitários ao Windows:
 
 ```bash
-winget install Microsoft.PowerToys -i
+winget install Microsoft.PowerToys -i;
 ```
 
 ---
@@ -170,7 +170,7 @@ winget install Microsoft.PowerToys -i
 Instala o PowerShell:
 
 ```bash
-winget install --id Microsoft.PowerShell -i
+winget install --id Microsoft.PowerShell -i;
 ```
 
 ---
@@ -180,7 +180,7 @@ winget install --id Microsoft.PowerShell -i
 Instala o MEGA Sync para sincronização de arquivos:
 
 ```bash
-winget install Mega.MEGASync -i
+winget install Mega.MEGASync -i;
 ```
 
 ---
@@ -190,7 +190,7 @@ winget install Mega.MEGASync -i
 Instala o MiniTool Partition Wizard Free para gerenciamento de partições:
 
 ```bash
-winget install MiniTool.PartitionWizard.Free -i
+winget install MiniTool.PartitionWizard.Free -i;
 ```
 
 ---
@@ -200,7 +200,7 @@ winget install MiniTool.PartitionWizard.Free -i
 Instala o JW Library:
 
 ```bash
-winget install "JW Library" -s msstore -i
+winget install "JW Library" -s msstore -i;
 ```
 
 ---
@@ -210,7 +210,7 @@ winget install "JW Library" -s msstore -i
 Instala o WhatsApp:
 
 ```bash
-winget install "WhatsApp" -s msstore -i
+winget install "WhatsApp" -s msstore -i;
 ```
 
 ---
@@ -220,7 +220,7 @@ winget install "WhatsApp" -s msstore -i
 Instala o Unigram, um cliente do Telegram para Windows:
 
 ```bash
-winget install Telegram.Unigram -i
+winget install Telegram.Unigram -i;
 ```
 
 ---
@@ -230,7 +230,7 @@ winget install Telegram.Unigram -i
 Instala o Gather, um aplicativo de reunião para Windows:
 
 ```bash
-winget install Gather.Gather -i
+winget install Gather.Gather -i;
 ```
 
 ---
@@ -240,7 +240,7 @@ winget install Gather.Gather -i
 Instala o MySQL Workbench para design e gerenciamento de banco de dados:
 
 ```bash
-winget install Oracle.MySQLWorkbench -i
+winget install Oracle.MySQLWorkbench -i;
 ```
 
 ---
@@ -250,7 +250,7 @@ winget install Oracle.MySQLWorkbench -i
 Instala o Raspberry Pi Imager:
 
 ```bash
-winget install --id RaspberryPiFoundation.RaspberryPiImager -i
+winget install --id RaspberryPiFoundation.RaspberryPiImager -i;
 ```
 
 ---
@@ -260,7 +260,7 @@ winget install --id RaspberryPiFoundation.RaspberryPiImager -i
 Instala o Azure CLI:
 
 ```bash
-winget install --id Microsoft.AzureCLI -i
+winget install --id Microsoft.AzureCLI -i;
 ```
 
 ---
@@ -270,7 +270,7 @@ winget install --id Microsoft.AzureCLI -i
 Instala o AWS CLI:
 
 ```bash
-winget install --id Amazon.AWSCLI -i
+winget install --id Amazon.AWSCLI -i;
 ```
 
 ---
@@ -280,19 +280,23 @@ winget install --id Amazon.AWSCLI -i
 Instalar o Bitvise Client
 
 ```bash
-winget insatll --id Bitvise.SSH.Client -i
+winget insatll --id Bitvise.SSH.Client -i;
 ```
 
 ```bash
-winget insatll --id PostgreSQL.psqlODBC -i
+winget insatll --id PostgreSQL.psqlODBC -i;
 ```
 
 ```bash
-winget install --id 'DigitalOcean.Doctl' -i
+winget install --id 'DigitalOcean.Doctl' -i;
 ```
 
 ```bash
 winget install --id Mikrotik.Winbox.Beta -i;
+```
+
+```bash
+winget install --id AnyDeskSoftwareGmbH.AnyDesk -i;
 ```
 
 ## Atualizações
