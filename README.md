@@ -9,7 +9,7 @@ Este documento contém os comandos para instalar diversas ferramentas essenciais
 Instala o Visual Studio Code:
 
 ```bash
-winget install --id Microsoft.VisualStudioCode
+winget install --id Microsoft.VisualStudioCode -i;
 ```
 
 ---
