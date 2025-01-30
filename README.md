@@ -283,21 +283,37 @@ Instalar o Bitvise Client
 winget insatll --id Bitvise.SSH.Client -i;
 ```
 
+---
+
 ```bash
 winget insatll --id PostgreSQL.psqlODBC -i;
 ```
+
+---
 
 ```bash
 winget install --id 'DigitalOcean.Doctl' -i;
 ```
 
+---
+
 ```bash
 winget install --id Mikrotik.Winbox.Beta -i;
 ```
 
+---
+
 ```bash
 winget install --id AnyDeskSoftwareGmbH.AnyDesk -i;
 ```
+
+---
+
+```bash
+winget install JanDeDobbeleer.OhMyPosh -s winget
+```
+
+---
 
 ## Atualizações
 
