@@ -315,12 +315,6 @@ winget install JanDeDobbeleer.OhMyPosh -s winget
 
 ---
 
-```bash
-winget install spacedesk -i;
-```
-
----
-
 ## Atualizações
 
 Para atualizar todas as ferramentas instaladas via `winget`, execute:
