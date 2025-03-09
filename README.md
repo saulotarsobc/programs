@@ -1,10 +1,20 @@
 # Apps
 
-## 1. **Visual Studio Code (VS Code)**
+### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
+
+This is HTML abbreviation example.
+
+It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
+
+\*[HTML]: Hyper Text Markup Language
+
+### [Custom containers](https://github.com/markdown-it/markdown-it-container)
 
 ::: warning
 _here be dragons_
 :::
+
+## 1. **Visual Studio Code (VS Code)**
 
 A lightweight and powerful source code editor by Microsoft.
 
