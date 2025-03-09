@@ -1,7 +1,5 @@
 const fs = require("fs");
 
-const data = JSON.parse(fs.readFileSync("./data.json", "utf8"));
-
 function generateReadme(data) {
   let readmeContent = "# Apps\n\n";
 
@@ -12,11 +10,23 @@ function generateReadme(data) {
     readmeContent += "---\n\n";
   });
 
+  console.log(">>> Content generated successfully!");
   return readmeContent;
 }
 
-const readmeContent = generateReadme(data);
+function writeFIle(dst, content) {
+  fs.writeFileSync(dst, content, (err) => {
+    if (err) {
+      console.log(e >>> rr);
+    }
+  });
+  console.log(">>> File created successfully!");
+}
 
-fs.writeFileSync("./README.md", readmeContent);
+function main() {
+  const data = JSON.parse(fs.readFileSync("./data.json", "utf8"));
+  const readme = generateReadme(data);
+  writeFIle("README.md", readme);
+}
 
-console.log("README.md gerado com sucesso!");
+main();

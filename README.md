@@ -5,7 +5,7 @@
 > Editor de código-fonte leve e poderoso da Microsoft.
 
 ```bash
-winget install --id Microsoft.VisualStudioCode -i;
+winget install --id "Microsoft.VisualStudioCode" -i;
 ```
 
 ---
@@ -15,7 +15,7 @@ winget install --id Microsoft.VisualStudioCode -i;
 > Sistema de controle de versão distribuído.
 
 ```bash
-winget install --id Git.Git -i;
+winget install --id "Git.Git" -i;
 ```
 
 ---
@@ -25,7 +25,7 @@ winget install --id Git.Git -i;
 > Aplicativo de desktop para gerenciar repositórios GitHub.
 
 ```bash
-winget install --id GitHub.GitHubDesktop -i;
+winget install --id "GitHub.GitHubDesktop" -i;
 ```
 
 ---
@@ -35,7 +35,7 @@ winget install --id GitHub.GitHubDesktop -i;
 > Ambiente de execução JavaScript server-side.
 
 ```bash
-winget install --id OpenJS.NodeJS.LTS -i;
+winget install --id "OpenJS.NodeJS.LTS" -i;
 ```
 
 ---
@@ -45,7 +45,7 @@ winget install --id OpenJS.NodeJS.LTS -i;
 > Editor de texto sofisticado para código, marcação e prosa.
 
 ```bash
-winget install SublimeHQ.SublimeText.4 -i;
+winget install "SublimeHQ.SublimeText.4" -i;
 ```
 
 ---
@@ -55,7 +55,7 @@ winget install SublimeHQ.SublimeText.4 -i;
 > Versão portátil do editor de texto Sublime Text 4.
 
 ```bash
-winget install SublimeHQ.SublimeText.4.Portable -i;
+winget install "SublimeHQ.SublimeText.4.Portable" -i;
 ```
 
 ---
@@ -65,7 +65,7 @@ winget install SublimeHQ.SublimeText.4.Portable -i;
 > Versão anterior do editor de texto Sublime Text.
 
 ```bash
-winget install SublimeHQ.SublimeText.3 -i;
+winget install "SublimeHQ.SublimeText.3" -i;
 ```
 
 ---
@@ -75,7 +75,7 @@ winget install SublimeHQ.SublimeText.3 -i;
 > Ferramenta de gerenciamento de banco de dados universal.
 
 ```bash
-winget install dbeaver.dbeaver -i;
+winget install "dbeaver.dbeaver" -i;
 ```
 
 ---
@@ -85,7 +85,7 @@ winget install dbeaver.dbeaver -i;
 > Versão empresarial da ferramenta de gerenciamento de banco de dados DBeaver.
 
 ```bash
-winget install DBeaverCorp.DBeaverEnterpriseEdition -i;
+winget install "DBeaverCorp.DBeaverEnterpriseEdition" -i;
 ```
 
 ---
@@ -95,7 +95,7 @@ winget install DBeaverCorp.DBeaverEnterpriseEdition -i;
 > Versão da Community Edition do DBeaver disponível na Microsoft Store.
 
 ```bash
-winget install 9PNKDR50694P -i;
+winget install "9PNKDR50694P" -i;
 ```
 
 ---
@@ -105,7 +105,7 @@ winget install 9PNKDR50694P -i;
 > Ferramenta de colaboração para desenvolvimento de APIs.
 
 ```bash
-winget install Postman.Postman -i;
+winget install "Postman.Postman" -i;
 ```
 
 ---
@@ -115,7 +115,7 @@ winget install Postman.Postman -i;
 > Cliente HTTP para teste e desenvolvimento de APIs REST.
 
 ```bash
-winget install Insomnia.Insomnia -i;
+winget install "Insomnia.Insomnia" -i;
 ```
 
 ---
@@ -125,7 +125,7 @@ winget install Insomnia.Insomnia -i;
 > Ferramenta de design colaborativo baseada na web.
 
 ```bash
-winget install Figma.Figma -i;
+winget install "Figma.Figma" -i;
 ```
 
 ---
@@ -135,7 +135,7 @@ winget install Figma.Figma -i;
 > Aplicativo para construir e compartilhar aplicativos em contêineres.
 
 ```bash
-winget install Docker.DockerDesktop -i;
+winget install "Docker.DockerDesktop" -i;
 ```
 
 ---
@@ -145,7 +145,7 @@ winget install Docker.DockerDesktop -i;
 > Plataforma de videoconferência e reuniões online.
 
 ```bash
-winget install --id Zoom.Zoom -i;
+winget install --id "Zoom.Zoom" -i;
 ```
 
 ---
@@ -155,7 +155,7 @@ winget install --id Zoom.Zoom -i;
 > Conjunto de utilitários para usuários avançados do Windows.
 
 ```bash
-winget install Microsoft.PowerToys -i;
+winget install "Microsoft.PowerToys" -i;
 ```
 
 ---
@@ -165,7 +165,7 @@ winget install Microsoft.PowerToys -i;
 > Shell de linha de comando e linguagem de script da Microsoft.
 
 ```bash
-winget install --id Microsoft.PowerShell -i;
+winget install --id "Microsoft.PowerShell" -i;
 ```
 
 ---
@@ -175,7 +175,7 @@ winget install --id Microsoft.PowerShell -i;
 > Aplicativo de sincronização de arquivos com a nuvem MEGA.
 
 ```bash
-winget install Mega.MEGASync -i;
+winget install "Mega.MEGASync" -i;
 ```
 
 ---
@@ -185,7 +185,7 @@ winget install Mega.MEGASync -i;
 > Ferramenta gratuita de gerenciamento de partições de disco.
 
 ```bash
-winget install MiniTool.PartitionWizard.Free -i;
+winget install "MiniTool.PartitionWizard.Free" -i;
 ```
 
 ---
@@ -215,7 +215,7 @@ winget install "WhatsApp" -s msstore -i;
 > Cliente não oficial do Telegram para Windows.
 
 ```bash
-winget install Telegram.Unigram -i;
+winget install "Telegram.Unigram" -i;
 ```
 
 ---
@@ -225,7 +225,7 @@ winget install Telegram.Unigram -i;
 > Plataforma de videoconferência com ambientes virtuais.
 
 ```bash
-winget install Gather.Gather -i;
+winget install "Gather.Gather" -i;
 ```
 
 ---
@@ -235,7 +235,7 @@ winget install Gather.Gather -i;
 > Ferramenta visual para administração de bancos de dados MySQL.
 
 ```bash
-winget install Oracle.MySQLWorkbench -i;
+winget install "Oracle.MySQLWorkbench" -i;
 ```
 
 ---
@@ -245,7 +245,7 @@ winget install Oracle.MySQLWorkbench -i;
 > Ferramenta para gravar sistemas operacionais em cartões SD para Raspberry Pi.
 
 ```bash
-winget install --id RaspberryPiFoundation.RaspberryPiImager -i;
+winget install --id "RaspberryPiFoundation.RaspberryPiImager" -i;
 ```
 
 ---
@@ -255,7 +255,7 @@ winget install --id RaspberryPiFoundation.RaspberryPiImager -i;
 > Interface de linha de comando para gerenciar recursos do Azure.
 
 ```bash
-winget install --id Microsoft.AzureCLI -i;
+winget install --id "Microsoft.AzureCLI" -i;
 ```
 
 ---
@@ -265,7 +265,7 @@ winget install --id Microsoft.AzureCLI -i;
 > Interface de linha de comando para gerenciar serviços da AWS.
 
 ```bash
-winget install --id Amazon.AWSCLI -i;
+winget install --id "Amazon.AWSCLI" -i;
 ```
 
 ---
@@ -275,7 +275,7 @@ winget install --id Amazon.AWSCLI -i;
 > Cliente SSH para Windows com suporte a SFTP.
 
 ```bash
-winget install --id Bitvise.SSH.Client -i;
+winget install --id "Bitvise.SSH.Client" -i;
 ```
 
 ---
@@ -285,7 +285,7 @@ winget install --id Bitvise.SSH.Client -i;
 > Driver ODBC para conectar-se a bancos de dados PostgreSQL.
 
 ```bash
-winget install --id PostgreSQL.psqlODBC -i;
+winget install --id "PostgreSQL.psqlODBC" -i;
 ```
 
 ---
@@ -295,7 +295,7 @@ winget install --id PostgreSQL.psqlODBC -i;
 > Interface de linha de comando para gerenciar recursos do DigitalOcean.
 
 ```bash
-winget install --id 'DigitalOcean.Doctl' -i;
+winget install --id "DigitalOcean.Doctl" -i;
 ```
 
 ---
@@ -305,7 +305,7 @@ winget install --id 'DigitalOcean.Doctl' -i;
 > Ferramenta de configuração para dispositivos Mikrotik.
 
 ```bash
-winget install --id Mikrotik.Winbox.Beta -i;
+winget install --id "Mikrotik.Winbox.Beta" -i;
 ```
 
 ---
@@ -315,22 +315,12 @@ winget install --id Mikrotik.Winbox.Beta -i;
 > Software de acesso remoto para computadores.
 
 ```bash
-winget install --id AnyDeskSoftwareGmbH.AnyDesk -i;
+winget install --id "AnyDeskSoftwareGmbH.AnyDesk" -i;
 ```
 
 ---
 
-## 33. **Oh My Posh**
-
-> Ferramenta para personalizar o prompt do terminal.
-
-```bash
-winget install JanDeDobbeleer.OhMyPosh -s winget;
-```
-
----
-
-## 34. **Redis Insight**
+## 33. **Redis Insight**
 
 > Ferramenta de gerenciamento e visualização de dados Redis.
 
