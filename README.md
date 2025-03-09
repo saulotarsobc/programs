@@ -1,12 +1,8 @@
-# Comandos para Instalar Ferramentas de Desenvolvimento no Windows
-
-Este documento contém os comandos para instalar diversas ferramentas essenciais para o desenvolvimento no Windows utilizando o `winget`.
-
----
+# Apps
 
 ## 1. **Visual Studio Code (VS Code)**
 
-Instala o Visual Studio Code:
+> Editor de código-fonte leve e poderoso da Microsoft.
 
 ```bash
 winget install --id Microsoft.VisualStudioCode -i;
@@ -16,7 +12,7 @@ winget install --id Microsoft.VisualStudioCode -i;
 
 ## 2. **Git**
 
-Instala o Git:
+> Sistema de controle de versão distribuído.
 
 ```bash
 winget install --id Git.Git -i;
@@ -26,7 +22,7 @@ winget install --id Git.Git -i;
 
 ## 3. **GitHub Desktop**
 
-Instala o GitHub Desktop:
+> Aplicativo de desktop para gerenciar repositórios GitHub.
 
 ```bash
 winget install --id GitHub.GitHubDesktop -i;
@@ -36,7 +32,7 @@ winget install --id GitHub.GitHubDesktop -i;
 
 ## 4. **Node.js**
 
-Instala o Node.js (LTS):
+> Ambiente de execução JavaScript server-side.
 
 ```bash
 winget install --id OpenJS.NodeJS.LTS -i;
@@ -44,23 +40,29 @@ winget install --id OpenJS.NodeJS.LTS -i;
 
 ---
 
-## 5. **Sublime Text**
+## 5. **Sublime Text 4**
 
-Instala o Sublime Text. Pode escolher entre várias versões.
-
-### Sublime Text 4:
+> Editor de texto sofisticado para código, marcação e prosa.
 
 ```bash
 winget install SublimeHQ.SublimeText.4 -i;
 ```
 
-### Sublime Text 4 (Portátil):
+---
+
+## 6. **Sublime Text 4 (Portátil)**
+
+> Versão portátil do editor de texto Sublime Text 4.
 
 ```bash
 winget install SublimeHQ.SublimeText.4.Portable -i;
 ```
 
-### Sublime Text 3:
+---
+
+## 7. **Sublime Text 3**
+
+> Versão anterior do editor de texto Sublime Text.
 
 ```bash
 winget install SublimeHQ.SublimeText.3 -i;
@@ -68,23 +70,29 @@ winget install SublimeHQ.SublimeText.3 -i;
 
 ---
 
-## 6. **DBeaver**
+## 8. **DBeaver Community Edition (Gratuito)**
 
-Instala o DBeaver para gerenciamento de bancos de dados.
-
-### DBeaver Community Edition (Gratuito):
+> Ferramenta de gerenciamento de banco de dados universal.
 
 ```bash
 winget install dbeaver.dbeaver -i;
 ```
 
-### DBeaver Enterprise Edition:
+---
+
+## 9. **DBeaver Enterprise Edition**
+
+> Versão empresarial da ferramenta de gerenciamento de banco de dados DBeaver.
 
 ```bash
 winget install DBeaverCorp.DBeaverEnterpriseEdition -i;
 ```
 
-### DBeaver CE via Microsoft Store:
+---
+
+## 10. **DBeaver CE via Microsoft Store**
+
+> Versão da Community Edition do DBeaver disponível na Microsoft Store.
 
 ```bash
 winget install 9PNKDR50694P -i;
@@ -92,9 +100,9 @@ winget install 9PNKDR50694P -i;
 
 ---
 
-## 7. **Postman**
+## 11. **Postman**
 
-Instala o Postman para testes de APIs:
+> Ferramenta de colaboração para desenvolvimento de APIs.
 
 ```bash
 winget install Postman.Postman -i;
@@ -102,9 +110,9 @@ winget install Postman.Postman -i;
 
 ---
 
-## 8. **Insomnia**
+## 12. **Insomnia**
 
-Instala o Insomnia, uma alternativa ao Postman para testes de APIs:
+> Cliente HTTP para teste e desenvolvimento de APIs REST.
 
 ```bash
 winget install Insomnia.Insomnia -i;
@@ -112,9 +120,9 @@ winget install Insomnia.Insomnia -i;
 
 ---
 
-## 9. **Figma**
+## 13. **Figma**
 
-Instala o Figma para design colaborativo:
+> Ferramenta de design colaborativo baseada na web.
 
 ```bash
 winget install Figma.Figma -i;
@@ -122,32 +130,19 @@ winget install Figma.Figma -i;
 
 ---
 
-## 10. **Docker Desktop**
+## 14. **Docker Desktop**
 
-Instala o Docker Desktop para criação e gerenciamento de contêineres:
+> Aplicativo para construir e compartilhar aplicativos em contêineres.
 
 ```bash
 winget install Docker.DockerDesktop -i;
 ```
 
-### Verificações Pós-Instalação
-
-- **Verificar versão do Docker**:
-
-  ```bash
-  docker --version
-  ```
-
-- **Executar um contêiner de teste no Docker**:
-  ```bash
-  docker run hello-world
-  ```
-
 ---
 
-## 11. **Zoom**
+## 15. **Zoom**
 
-Instala o Zoom para videoconferências:
+> Plataforma de videoconferência e reuniões online.
 
 ```bash
 winget install --id Zoom.Zoom -i;
@@ -155,9 +150,9 @@ winget install --id Zoom.Zoom -i;
 
 ---
 
-## 12. **PowerToys**
+## 16. **PowerToys**
 
-Instala o PowerToys para adicionar utilitários ao Windows:
+> Conjunto de utilitários para usuários avançados do Windows.
 
 ```bash
 winget install Microsoft.PowerToys -i;
@@ -165,9 +160,9 @@ winget install Microsoft.PowerToys -i;
 
 ---
 
-## 13. **PowerShell**
+## 17. **PowerShell**
 
-Instala o PowerShell:
+> Shell de linha de comando e linguagem de script da Microsoft.
 
 ```bash
 winget install --id Microsoft.PowerShell -i;
@@ -175,9 +170,9 @@ winget install --id Microsoft.PowerShell -i;
 
 ---
 
-## 13. **MEGA Sync**
+## 18. **MEGA Sync**
 
-Instala o MEGA Sync para sincronização de arquivos:
+> Aplicativo de sincronização de arquivos com a nuvem MEGA.
 
 ```bash
 winget install Mega.MEGASync -i;
@@ -185,9 +180,9 @@ winget install Mega.MEGASync -i;
 
 ---
 
-## 14. **MiniTool Partition Wizard Free**
+## 19. **MiniTool Partition Wizard Free**
 
-Instala o MiniTool Partition Wizard Free para gerenciamento de partições:
+> Ferramenta gratuita de gerenciamento de partições de disco.
 
 ```bash
 winget install MiniTool.PartitionWizard.Free -i;
@@ -195,9 +190,9 @@ winget install MiniTool.PartitionWizard.Free -i;
 
 ---
 
-## 15. **JW Library**
+## 20. **JW Library**
 
-Instala o JW Library:
+> Aplicativo oficial das Testemunhas de Jeová para leitura da Bíblia.
 
 ```bash
 winget install "JW Library" -s msstore -i;
@@ -205,9 +200,9 @@ winget install "JW Library" -s msstore -i;
 
 ---
 
-## 16. **WhatsApp**
+## 21. **WhatsApp**
 
-Instala o WhatsApp:
+> Aplicativo de mensagens e chamadas de voz e vídeo.
 
 ```bash
 winget install "WhatsApp" -s msstore -i;
@@ -215,9 +210,9 @@ winget install "WhatsApp" -s msstore -i;
 
 ---
 
-## 17. **Unigram**
+## 22. **Unigram**
 
-Instala o Unigram, um cliente do Telegram para Windows:
+> Cliente não oficial do Telegram para Windows.
 
 ```bash
 winget install Telegram.Unigram -i;
@@ -225,9 +220,9 @@ winget install Telegram.Unigram -i;
 
 ---
 
-## 18. **Gather**
+## 23. **Gather**
 
-Instala o Gather, um aplicativo de reunião para Windows:
+> Plataforma de videoconferência com ambientes virtuais.
 
 ```bash
 winget install Gather.Gather -i;
@@ -235,9 +230,9 @@ winget install Gather.Gather -i;
 
 ---
 
-## 19. **MySQL Workbench**
+## 24. **MySQL Workbench**
 
-Instala o MySQL Workbench para design e gerenciamento de banco de dados:
+> Ferramenta visual para administração de bancos de dados MySQL.
 
 ```bash
 winget install Oracle.MySQLWorkbench -i;
@@ -245,9 +240,9 @@ winget install Oracle.MySQLWorkbench -i;
 
 ---
 
-## 20. **Raspberry Pi Imager**
+## 25. **Raspberry Pi Imager**
 
-Instala o Raspberry Pi Imager:
+> Ferramenta para gravar sistemas operacionais em cartões SD para Raspberry Pi.
 
 ```bash
 winget install --id RaspberryPiFoundation.RaspberryPiImager -i;
@@ -255,9 +250,9 @@ winget install --id RaspberryPiFoundation.RaspberryPiImager -i;
 
 ---
 
-## 21. **Azure CLI**
+## 26. **Azure CLI**
 
-Instala o Azure CLI:
+> Interface de linha de comando para gerenciar recursos do Azure.
 
 ```bash
 winget install --id Microsoft.AzureCLI -i;
@@ -265,9 +260,9 @@ winget install --id Microsoft.AzureCLI -i;
 
 ---
 
-## 22. **AWS CLI**
+## 27. **AWS CLI**
 
-Instala o AWS CLI:
+> Interface de linha de comando para gerenciar serviços da AWS.
 
 ```bash
 winget install --id Amazon.AWSCLI -i;
@@ -275,21 +270,29 @@ winget install --id Amazon.AWSCLI -i;
 
 ---
 
-## 23. Bitvise SSH Client
+## 28. **Bitvise SSH Client**
 
-Instalar o Bitvise Client
+> Cliente SSH para Windows com suporte a SFTP.
 
 ```bash
-winget insatll --id Bitvise.SSH.Client -i;
+winget install --id Bitvise.SSH.Client -i;
 ```
 
 ---
 
+## 29. **PostgreSQL ODBC Driver**
+
+> Driver ODBC para conectar-se a bancos de dados PostgreSQL.
+
 ```bash
-winget insatll --id PostgreSQL.psqlODBC -i;
+winget install --id PostgreSQL.psqlODBC -i;
 ```
 
 ---
+
+## 30. **DigitalOcean CLI**
+
+> Interface de linha de comando para gerenciar recursos do DigitalOcean.
 
 ```bash
 winget install --id 'DigitalOcean.Doctl' -i;
@@ -297,11 +300,19 @@ winget install --id 'DigitalOcean.Doctl' -i;
 
 ---
 
+## 31. **Mikrotik Winbox Beta**
+
+> Ferramenta de configuração para dispositivos Mikrotik.
+
 ```bash
 winget install --id Mikrotik.Winbox.Beta -i;
 ```
 
 ---
+
+## 32. **AnyDesk**
+
+> Software de acesso remoto para computadores.
 
 ```bash
 winget install --id AnyDeskSoftwareGmbH.AnyDesk -i;
@@ -309,16 +320,23 @@ winget install --id AnyDeskSoftwareGmbH.AnyDesk -i;
 
 ---
 
+## 33. **Oh My Posh**
+
+> Ferramenta para personalizar o prompt do terminal.
+
 ```bash
-winget install JanDeDobbeleer.OhMyPosh -s winget
+winget install JanDeDobbeleer.OhMyPosh -s winget;
 ```
 
 ---
 
-## Atualizações
+## 34. **Redis Insight**
 
-Para atualizar todas as ferramentas instaladas via `winget`, execute:
+> Ferramenta de gerenciamento e visualização de dados Redis.
 
 ```bash
-winget upgrade --all
+winget install "Redis Insight" -i;
 ```
+
+---
+
