@@ -7,7 +7,7 @@ function generateReadme(data: DataInterface[]) {
 
   data.forEach((app, index) => {
     readmeContent += `## ${index + 1}. **${app.name}**\n\n`;
-    readmeContent += `::: warning\n${app.shortDescription}\n:::\n\n`;
+    readmeContent += `${app.shortDescription}\n\n`;
     readmeContent += `\`\`\`bash\n`;
     readmeContent += `winget install ${app.type} "${app.id}" ${
       app.interactive ? "--interactive" : "--silent"
