@@ -2,7 +2,9 @@
 
 ## 1. **Visual Studio Code (VS Code)**
 
-> Editor de código-fonte leve e poderoso da Microsoft.
+> ::: warning
+A lightweight and powerful source code editor by Microsoft.
+:::
 
 ```bash
 winget install --id "Microsoft.VisualStudioCode" --interactive;
@@ -12,7 +14,7 @@ winget install --id "Microsoft.VisualStudioCode" --interactive;
 
 ## 2. **Git**
 
-> Sistema de controle de versão distribuído.
+> A distributed version control system for tracking changes in source code.
 
 ```bash
 winget install --id "Git.Git" --interactive;
@@ -22,7 +24,7 @@ winget install --id "Git.Git" --interactive;
 
 ## 3. **GitHub Desktop**
 
-> Aplicativo de desktop para gerenciar repositórios GitHub.
+> A desktop application to manage GitHub repositories.
 
 ```bash
 winget install --id "GitHub.GitHubDesktop" --interactive;
@@ -32,7 +34,7 @@ winget install --id "GitHub.GitHubDesktop" --interactive;
 
 ## 4. **Node.js**
 
-> Ambiente de execução JavaScript server-side.
+> A JavaScript runtime built on Chrome's V8 JavaScript engine.
 
 ```bash
 winget install --id "OpenJS.NodeJS.LTS" --interactive;
@@ -42,7 +44,7 @@ winget install --id "OpenJS.NodeJS.LTS" --interactive;
 
 ## 5. **Sublime Text 4**
 
-> Editor de texto sofisticado para código, marcação e prosa.
+> A sophisticated text editor for code, markup, and prose.
 
 ```bash
 winget install --id "SublimeHQ.SublimeText.4" --interactive;
@@ -50,9 +52,9 @@ winget install --id "SublimeHQ.SublimeText.4" --interactive;
 
 ---
 
-## 6. **Sublime Text 4 (Portátil)**
+## 6. **Sublime Text 4 (Portable)**
 
-> Versão portátil do editor de texto Sublime Text 4.
+> A portable version of the Sublime Text 4 editor.
 
 ```bash
 winget install --id "SublimeHQ.SublimeText.4.Portable" --interactive;
@@ -62,7 +64,7 @@ winget install --id "SublimeHQ.SublimeText.4.Portable" --interactive;
 
 ## 7. **Sublime Text 3**
 
-> Versão anterior do editor de texto Sublime Text.
+> The previous version of the Sublime Text editor.
 
 ```bash
 winget install --id "SublimeHQ.SublimeText.3" --interactive;
@@ -70,9 +72,9 @@ winget install --id "SublimeHQ.SublimeText.3" --interactive;
 
 ---
 
-## 8. **DBeaver Community Edition (Gratuito)**
+## 8. **DBeaver Community Edition (Free)**
 
-> Ferramenta de gerenciamento de banco de dados universal.
+> A universal database management tool.
 
 ```bash
 winget install --name "DBeaver Community Edition" --interactive;
@@ -82,7 +84,7 @@ winget install --name "DBeaver Community Edition" --interactive;
 
 ## 9. **DBeaver Enterprise Edition**
 
-> Versão empresarial da ferramenta de gerenciamento de banco de dados DBeaver.
+> The enterprise version of the DBeaver database management tool.
 
 ```bash
 winget install --name "DBeaver Enterprise Edition" --interactive;
@@ -92,7 +94,7 @@ winget install --name "DBeaver Enterprise Edition" --interactive;
 
 ## 10. **Postman**
 
-> Ferramenta de colaboração para desenvolvimento de APIs.
+> A collaboration platform for API development.
 
 ```bash
 winget install --id "Postman.Postman" --interactive;
@@ -102,7 +104,7 @@ winget install --id "Postman.Postman" --interactive;
 
 ## 11. **Insomnia**
 
-> Cliente HTTP para teste e desenvolvimento de APIs REST.
+> An HTTP client for testing and developing REST APIs.
 
 ```bash
 winget install --id "Insomnia.Insomnia" --interactive;
@@ -112,7 +114,7 @@ winget install --id "Insomnia.Insomnia" --interactive;
 
 ## 12. **Figma**
 
-> Ferramenta de design colaborativo baseada na web.
+> A web-based collaborative design tool.
 
 ```bash
 winget install --id "Figma.Figma" --interactive;
@@ -122,7 +124,7 @@ winget install --id "Figma.Figma" --interactive;
 
 ## 13. **Docker Desktop**
 
-> Aplicativo para construir e compartilhar aplicativos em contêineres.
+> An application for building and sharing containerized applications.
 
 ```bash
 winget install --id "Docker.DockerDesktop" --interactive;
@@ -132,7 +134,7 @@ winget install --id "Docker.DockerDesktop" --interactive;
 
 ## 14. **Zoom**
 
-> Plataforma de videoconferência e reuniões online.
+> A platform for video conferencing and online meetings.
 
 ```bash
 winget install --id "Zoom.Zoom" --interactive;
@@ -142,7 +144,7 @@ winget install --id "Zoom.Zoom" --interactive;
 
 ## 15. **PowerToys**
 
-> Conjunto de utilitários para usuários avançados do Windows.
+> A set of utilities for power users to tune and streamline their Windows experience.
 
 ```bash
 winget install --id "Microsoft.PowerToys" --interactive;
@@ -152,7 +154,7 @@ winget install --id "Microsoft.PowerToys" --interactive;
 
 ## 16. **PowerShell**
 
-> Shell de linha de comando e linguagem de script da Microsoft.
+> A command-line shell and scripting language by Microsoft.
 
 ```bash
 winget install --id "Microsoft.PowerShell" --interactive;
@@ -162,7 +164,7 @@ winget install --id "Microsoft.PowerShell" --interactive;
 
 ## 17. **MEGA Sync**
 
-> Aplicativo de sincronização de arquivos com a nuvem MEGA.
+> A file synchronization application for the MEGA cloud storage service.
 
 ```bash
 winget install --id "Mega.MEGASync" --interactive;
@@ -172,7 +174,7 @@ winget install --id "Mega.MEGASync" --interactive;
 
 ## 18. **MiniTool Partition Wizard Free**
 
-> Ferramenta gratuita de gerenciamento de partições de disco.
+> A free tool for managing disk partitions.
 
 ```bash
 winget install --id "MiniTool.PartitionWizard.Free" --interactive;
@@ -182,7 +184,7 @@ winget install --id "MiniTool.PartitionWizard.Free" --interactive;
 
 ## 19. **JW Library**
 
-> Aplicativo oficial das Testemunhas de Jeová para leitura da Bíblia.
+> The official app of Jehovah's Witnesses for reading the Bible.
 
 ```bash
 winget install --name "JW Library" --silent;
@@ -192,7 +194,7 @@ winget install --name "JW Library" --silent;
 
 ## 20. **WhatsApp**
 
-> Aplicativo de mensagens e chamadas de voz e vídeo.
+> A messaging and voice/video calling application.
 
 ```bash
 winget install --name "whatsapp" --silent;
@@ -202,7 +204,7 @@ winget install --name "whatsapp" --silent;
 
 ## 21. **Unigram**
 
-> Cliente não oficial do Telegram para Windows.
+> An unofficial Telegram client for Windows.
 
 ```bash
 winget install --id "Telegram.Unigram" --interactive;
@@ -212,7 +214,7 @@ winget install --id "Telegram.Unigram" --interactive;
 
 ## 22. **Gather**
 
-> Plataforma de videoconferência com ambientes virtuais.
+> A video conferencing platform with virtual environments.
 
 ```bash
 winget install --id "Gather.Gather" --interactive;
@@ -222,7 +224,7 @@ winget install --id "Gather.Gather" --interactive;
 
 ## 23. **MySQL Workbench**
 
-> Ferramenta visual para administração de bancos de dados MySQL.
+> A visual tool for database design and administration of MySQL databases.
 
 ```bash
 winget install --id "Oracle.MySQLWorkbench" --interactive;
@@ -232,7 +234,7 @@ winget install --id "Oracle.MySQLWorkbench" --interactive;
 
 ## 24. **Raspberry Pi Imager**
 
-> Ferramenta para gravar sistemas operacionais em cartões SD para Raspberry Pi.
+> A tool to write operating system images to SD cards for Raspberry Pi.
 
 ```bash
 winget install --id "RaspberryPiFoundation.RaspberryPiImager" --interactive;
@@ -242,7 +244,7 @@ winget install --id "RaspberryPiFoundation.RaspberryPiImager" --interactive;
 
 ## 25. **Azure CLI**
 
-> Interface de linha de comando para gerenciar recursos do Azure.
+> A command-line interface for managing Azure resources.
 
 ```bash
 winget install --id "Microsoft.AzureCLI" --interactive;
@@ -252,7 +254,7 @@ winget install --id "Microsoft.AzureCLI" --interactive;
 
 ## 26. **AWS CLI**
 
-> Interface de linha de comando para gerenciar serviços da AWS.
+> A command-line interface for managing AWS services.
 
 ```bash
 winget install --id "Amazon.AWSCLI" --interactive;
@@ -262,7 +264,7 @@ winget install --id "Amazon.AWSCLI" --interactive;
 
 ## 27. **Bitvise SSH Client**
 
-> Cliente SSH para Windows com suporte a SFTP.
+> An SSH client for Windows with SFTP support.
 
 ```bash
 winget install --id "Bitvise.SSH.Client" --interactive;
@@ -272,7 +274,7 @@ winget install --id "Bitvise.SSH.Client" --interactive;
 
 ## 28. **PostgreSQL ODBC Driver**
 
-> Driver ODBC para conectar-se a bancos de dados PostgreSQL.
+> An ODBC driver for connecting to PostgreSQL databases.
 
 ```bash
 winget install --id "PostgreSQL.psqlODBC" --interactive;
@@ -282,7 +284,7 @@ winget install --id "PostgreSQL.psqlODBC" --interactive;
 
 ## 29. **DigitalOcean CLI**
 
-> Interface de linha de comando para gerenciar recursos do DigitalOcean.
+> A command-line interface for managing DigitalOcean resources.
 
 ```bash
 winget install --id "DigitalOcean.Doctl" --interactive;
@@ -292,7 +294,7 @@ winget install --id "DigitalOcean.Doctl" --interactive;
 
 ## 30. **Mikrotik Winbox Beta**
 
-> Ferramenta de configuração para dispositivos Mikrotik.
+> A configuration tool for Mikrotik devices.
 
 ```bash
 winget install --id "Mikrotik.Winbox.Beta" --interactive;
@@ -302,7 +304,7 @@ winget install --id "Mikrotik.Winbox.Beta" --interactive;
 
 ## 31. **AnyDesk**
 
-> Software de acesso remoto para computadores.
+> A remote desktop software for accessing computers remotely.
 
 ```bash
 winget install --id "AnyDeskSoftwareGmbH.AnyDesk" --interactive;
@@ -312,10 +314,11 @@ winget install --id "AnyDeskSoftwareGmbH.AnyDesk" --interactive;
 
 ## 32. **Redis Insight**
 
-> Ferramenta de gerenciamento e visualização de dados Redis.
+> A management and visualization tool for Redis data.
 
 ```bash
 winget install --id "Redis Insight" --interactive;
 ```
 
 ---
+

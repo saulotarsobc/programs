@@ -4,7 +4,8 @@ const data: DataInterface[] = [
   {
     name: "Visual Studio Code (VS Code)",
     id: "Microsoft.VisualStudioCode",
-    shortDescription: "Editor de código-fonte leve e poderoso da Microsoft.",
+    shortDescription:
+      "::: warning\nA lightweight and powerful source code editor by Microsoft.\n:::",
     source: "winget",
     interactive: true,
     type: "--id",
@@ -12,7 +13,8 @@ const data: DataInterface[] = [
   {
     name: "Git",
     id: "Git.Git",
-    shortDescription: "Sistema de controle de versão distribuído.",
+    shortDescription:
+      "A distributed version control system for tracking changes in source code.",
     source: "winget",
     interactive: true,
     type: "--id",
@@ -20,8 +22,7 @@ const data: DataInterface[] = [
   {
     name: "GitHub Desktop",
     id: "GitHub.GitHubDesktop",
-    shortDescription:
-      "Aplicativo de desktop para gerenciar repositórios GitHub.",
+    shortDescription: "A desktop application to manage GitHub repositories.",
     source: "winget",
     interactive: true,
     type: "--id",
@@ -29,7 +30,8 @@ const data: DataInterface[] = [
   {
     name: "Node.js",
     id: "OpenJS.NodeJS.LTS",
-    shortDescription: "Ambiente de execução JavaScript server-side.",
+    shortDescription:
+      "A JavaScript runtime built on Chrome's V8 JavaScript engine.",
     source: "winget",
     interactive: true,
     type: "--id",
@@ -38,15 +40,15 @@ const data: DataInterface[] = [
     name: "Sublime Text 4",
     id: "SublimeHQ.SublimeText.4",
     shortDescription:
-      "Editor de texto sofisticado para código, marcação e prosa.",
+      "A sophisticated text editor for code, markup, and prose.",
     source: "winget",
     interactive: true,
     type: "--id",
   },
   {
-    name: "Sublime Text 4 (Portátil)",
+    name: "Sublime Text 4 (Portable)",
     id: "SublimeHQ.SublimeText.4.Portable",
-    shortDescription: "Versão portátil do editor de texto Sublime Text 4.",
+    shortDescription: "A portable version of the Sublime Text 4 editor.",
     source: "winget",
     interactive: true,
     type: "--id",
@@ -54,16 +56,15 @@ const data: DataInterface[] = [
   {
     name: "Sublime Text 3",
     id: "SublimeHQ.SublimeText.3",
-    shortDescription: "Versão anterior do editor de texto Sublime Text.",
+    shortDescription: "The previous version of the Sublime Text editor.",
     source: "winget",
     interactive: true,
     type: "--id",
   },
   {
-    name: "DBeaver Community Edition (Gratuito)",
+    name: "DBeaver Community Edition (Free)",
     id: "DBeaver Community Edition",
-    shortDescription:
-      "Ferramenta de gerenciamento de banco de dados universal.",
+    shortDescription: "A universal database management tool.",
     source: "winget",
     interactive: true,
     type: "--name",
@@ -72,7 +73,7 @@ const data: DataInterface[] = [
     name: "DBeaver Enterprise Edition",
     id: "DBeaver Enterprise Edition",
     shortDescription:
-      "Versão empresarial da ferramenta de gerenciamento de banco de dados DBeaver.",
+      "The enterprise version of the DBeaver database management tool.",
     source: "winget",
     interactive: true,
     type: "--name",
@@ -80,7 +81,7 @@ const data: DataInterface[] = [
   {
     name: "Postman",
     id: "Postman.Postman",
-    shortDescription: "Ferramenta de colaboração para desenvolvimento de APIs.",
+    shortDescription: "A collaboration platform for API development.",
     source: "winget",
     interactive: true,
     type: "--id",
@@ -88,7 +89,7 @@ const data: DataInterface[] = [
   {
     name: "Insomnia",
     id: "Insomnia.Insomnia",
-    shortDescription: "Cliente HTTP para teste e desenvolvimento de APIs REST.",
+    shortDescription: "An HTTP client for testing and developing REST APIs.",
     source: "winget",
     interactive: true,
     type: "--id",
@@ -96,7 +97,7 @@ const data: DataInterface[] = [
   {
     name: "Figma",
     id: "Figma.Figma",
-    shortDescription: "Ferramenta de design colaborativo baseada na web.",
+    shortDescription: "A web-based collaborative design tool.",
     source: "winget",
     interactive: true,
     type: "--id",
@@ -105,7 +106,7 @@ const data: DataInterface[] = [
     name: "Docker Desktop",
     id: "Docker.DockerDesktop",
     shortDescription:
-      "Aplicativo para construir e compartilhar aplicativos em contêineres.",
+      "An application for building and sharing containerized applications.",
     source: "winget",
     interactive: true,
     type: "--id",
@@ -113,7 +114,7 @@ const data: DataInterface[] = [
   {
     name: "Zoom",
     id: "Zoom.Zoom",
-    shortDescription: "Plataforma de videoconferência e reuniões online.",
+    shortDescription: "A platform for video conferencing and online meetings.",
     source: "winget",
     interactive: true,
     type: "--id",
@@ -122,7 +123,7 @@ const data: DataInterface[] = [
     name: "PowerToys",
     id: "Microsoft.PowerToys",
     shortDescription:
-      "Conjunto de utilitários para usuários avançados do Windows.",
+      "A set of utilities for power users to tune and streamline their Windows experience.",
     source: "winget",
     interactive: true,
     type: "--id",
@@ -131,7 +132,7 @@ const data: DataInterface[] = [
     name: "PowerShell",
     id: "Microsoft.PowerShell",
     shortDescription:
-      "Shell de linha de comando e linguagem de script da Microsoft.",
+      "A command-line shell and scripting language by Microsoft.",
     source: "winget",
     interactive: true,
     type: "--id",
@@ -140,7 +141,7 @@ const data: DataInterface[] = [
     name: "MEGA Sync",
     id: "Mega.MEGASync",
     shortDescription:
-      "Aplicativo de sincronização de arquivos com a nuvem MEGA.",
+      "A file synchronization application for the MEGA cloud storage service.",
     source: "winget",
     interactive: true,
     type: "--id",
@@ -148,8 +149,7 @@ const data: DataInterface[] = [
   {
     name: "MiniTool Partition Wizard Free",
     id: "MiniTool.PartitionWizard.Free",
-    shortDescription:
-      "Ferramenta gratuita de gerenciamento de partições de disco.",
+    shortDescription: "A free tool for managing disk partitions.",
     source: "winget",
     interactive: true,
     type: "--id",
@@ -158,7 +158,7 @@ const data: DataInterface[] = [
     name: "JW Library",
     id: "JW Library",
     shortDescription:
-      "Aplicativo oficial das Testemunhas de Jeová para leitura da Bíblia.",
+      "The official app of Jehovah's Witnesses for reading the Bible.",
     source: "msstore",
     interactive: false,
     type: "--name",
@@ -166,7 +166,7 @@ const data: DataInterface[] = [
   {
     name: "WhatsApp",
     id: "whatsapp",
-    shortDescription: "Aplicativo de mensagens e chamadas de voz e vídeo.",
+    shortDescription: "A messaging and voice/video calling application.",
     source: "msstore",
     interactive: false,
     type: "--name",
@@ -174,7 +174,7 @@ const data: DataInterface[] = [
   {
     name: "Unigram",
     id: "Telegram.Unigram",
-    shortDescription: "Cliente não oficial do Telegram para Windows.",
+    shortDescription: "An unofficial Telegram client for Windows.",
     source: "winget",
     interactive: true,
     type: "--id",
@@ -182,7 +182,8 @@ const data: DataInterface[] = [
   {
     name: "Gather",
     id: "Gather.Gather",
-    shortDescription: "Plataforma de videoconferência com ambientes virtuais.",
+    shortDescription:
+      "A video conferencing platform with virtual environments.",
     source: "winget",
     interactive: true,
     type: "--id",
@@ -191,7 +192,7 @@ const data: DataInterface[] = [
     name: "MySQL Workbench",
     id: "Oracle.MySQLWorkbench",
     shortDescription:
-      "Ferramenta visual para administração de bancos de dados MySQL.",
+      "A visual tool for database design and administration of MySQL databases.",
     source: "winget",
     interactive: true,
     type: "--id",
@@ -200,7 +201,7 @@ const data: DataInterface[] = [
     name: "Raspberry Pi Imager",
     id: "RaspberryPiFoundation.RaspberryPiImager",
     shortDescription:
-      "Ferramenta para gravar sistemas operacionais em cartões SD para Raspberry Pi.",
+      "A tool to write operating system images to SD cards for Raspberry Pi.",
     source: "winget",
     interactive: true,
     type: "--id",
@@ -208,8 +209,7 @@ const data: DataInterface[] = [
   {
     name: "Azure CLI",
     id: "Microsoft.AzureCLI",
-    shortDescription:
-      "Interface de linha de comando para gerenciar recursos do Azure.",
+    shortDescription: "A command-line interface for managing Azure resources.",
     source: "winget",
     interactive: true,
     type: "--id",
@@ -217,8 +217,7 @@ const data: DataInterface[] = [
   {
     name: "AWS CLI",
     id: "Amazon.AWSCLI",
-    shortDescription:
-      "Interface de linha de comando para gerenciar serviços da AWS.",
+    shortDescription: "A command-line interface for managing AWS services.",
     source: "winget",
     interactive: true,
     type: "--id",
@@ -226,7 +225,7 @@ const data: DataInterface[] = [
   {
     name: "Bitvise SSH Client",
     id: "Bitvise.SSH.Client",
-    shortDescription: "Cliente SSH para Windows com suporte a SFTP.",
+    shortDescription: "An SSH client for Windows with SFTP support.",
     source: "winget",
     interactive: true,
     type: "--id",
@@ -234,8 +233,7 @@ const data: DataInterface[] = [
   {
     name: "PostgreSQL ODBC Driver",
     id: "PostgreSQL.psqlODBC",
-    shortDescription:
-      "Driver ODBC para conectar-se a bancos de dados PostgreSQL.",
+    shortDescription: "An ODBC driver for connecting to PostgreSQL databases.",
     source: "winget",
     interactive: true,
     type: "--id",
@@ -244,7 +242,7 @@ const data: DataInterface[] = [
     name: "DigitalOcean CLI",
     id: "DigitalOcean.Doctl",
     shortDescription:
-      "Interface de linha de comando para gerenciar recursos do DigitalOcean.",
+      "A command-line interface for managing DigitalOcean resources.",
     source: "winget",
     interactive: true,
     type: "--id",
@@ -252,7 +250,7 @@ const data: DataInterface[] = [
   {
     name: "Mikrotik Winbox Beta",
     id: "Mikrotik.Winbox.Beta",
-    shortDescription: "Ferramenta de configuração para dispositivos Mikrotik.",
+    shortDescription: "A configuration tool for Mikrotik devices.",
     source: "winget",
     interactive: true,
     type: "--id",
@@ -260,17 +258,16 @@ const data: DataInterface[] = [
   {
     name: "AnyDesk",
     id: "AnyDeskSoftwareGmbH.AnyDesk",
-    shortDescription: "Software de acesso remoto para computadores.",
+    shortDescription:
+      "A remote desktop software for accessing computers remotely.",
     source: "winget",
     interactive: true,
     type: "--id",
   },
-
   {
     name: "Redis Insight",
     id: "Redis Insight",
-    shortDescription:
-      "Ferramenta de gerenciamento e visualização de dados Redis.",
+    shortDescription: "A management and visualization tool for Redis data.",
     source: "winget",
     interactive: true,
     type: "--id",
