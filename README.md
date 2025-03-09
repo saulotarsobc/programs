@@ -5,7 +5,7 @@
 > Editor de código-fonte leve e poderoso da Microsoft.
 
 ```bash
-winget install --id "Microsoft.VisualStudioCode" -i;
+winget install --id Microsoft.VisualStudioCode --interactive;
 ```
 
 ---
@@ -15,7 +15,7 @@ winget install --id "Microsoft.VisualStudioCode" -i;
 > Sistema de controle de versão distribuído.
 
 ```bash
-winget install --id "Git.Git" -i;
+winget install --id Git.Git --interactive;
 ```
 
 ---
@@ -25,7 +25,7 @@ winget install --id "Git.Git" -i;
 > Aplicativo de desktop para gerenciar repositórios GitHub.
 
 ```bash
-winget install --id "GitHub.GitHubDesktop" -i;
+winget install --id GitHub.GitHubDesktop --interactive;
 ```
 
 ---
@@ -35,7 +35,7 @@ winget install --id "GitHub.GitHubDesktop" -i;
 > Ambiente de execução JavaScript server-side.
 
 ```bash
-winget install --id "OpenJS.NodeJS.LTS" -i;
+winget install --id OpenJS.NodeJS.LTS --interactive;
 ```
 
 ---
@@ -45,7 +45,7 @@ winget install --id "OpenJS.NodeJS.LTS" -i;
 > Editor de texto sofisticado para código, marcação e prosa.
 
 ```bash
-winget install "SublimeHQ.SublimeText.4" -i;
+winget install --id SublimeHQ.SublimeText.4 --interactive;
 ```
 
 ---
@@ -55,7 +55,7 @@ winget install "SublimeHQ.SublimeText.4" -i;
 > Versão portátil do editor de texto Sublime Text 4.
 
 ```bash
-winget install "SublimeHQ.SublimeText.4.Portable" -i;
+winget install --id SublimeHQ.SublimeText.4.Portable --interactive;
 ```
 
 ---
@@ -65,7 +65,7 @@ winget install "SublimeHQ.SublimeText.4.Portable" -i;
 > Versão anterior do editor de texto Sublime Text.
 
 ```bash
-winget install "SublimeHQ.SublimeText.3" -i;
+winget install --id SublimeHQ.SublimeText.3 --interactive;
 ```
 
 ---
@@ -75,7 +75,7 @@ winget install "SublimeHQ.SublimeText.3" -i;
 > Ferramenta de gerenciamento de banco de dados universal.
 
 ```bash
-winget install "dbeaver.dbeaver" -i;
+winget install --id DBeaver Community Edition --interactive;
 ```
 
 ---
@@ -85,247 +85,237 @@ winget install "dbeaver.dbeaver" -i;
 > Versão empresarial da ferramenta de gerenciamento de banco de dados DBeaver.
 
 ```bash
-winget install "DBeaverCorp.DBeaverEnterpriseEdition" -i;
+winget install --id DBeaver Enterprise Edition --interactive;
 ```
 
 ---
 
-## 10. **DBeaver CE via Microsoft Store**
-
-> Versão da Community Edition do DBeaver disponível na Microsoft Store.
-
-```bash
-winget install "9PNKDR50694P" -i;
-```
-
----
-
-## 11. **Postman**
+## 10. **Postman**
 
 > Ferramenta de colaboração para desenvolvimento de APIs.
 
 ```bash
-winget install "Postman.Postman" -i;
+winget install --id Postman.Postman --interactive;
 ```
 
 ---
 
-## 12. **Insomnia**
+## 11. **Insomnia**
 
 > Cliente HTTP para teste e desenvolvimento de APIs REST.
 
 ```bash
-winget install "Insomnia.Insomnia" -i;
+winget install --id Insomnia.Insomnia --interactive;
 ```
 
 ---
 
-## 13. **Figma**
+## 12. **Figma**
 
 > Ferramenta de design colaborativo baseada na web.
 
 ```bash
-winget install "Figma.Figma" -i;
+winget install --id Figma.Figma --interactive;
 ```
 
 ---
 
-## 14. **Docker Desktop**
+## 13. **Docker Desktop**
 
 > Aplicativo para construir e compartilhar aplicativos em contêineres.
 
 ```bash
-winget install "Docker.DockerDesktop" -i;
+winget install --id Docker.DockerDesktop --interactive;
 ```
 
 ---
 
-## 15. **Zoom**
+## 14. **Zoom**
 
 > Plataforma de videoconferência e reuniões online.
 
 ```bash
-winget install --id "Zoom.Zoom" -i;
+winget install --id Zoom.Zoom --interactive;
 ```
 
 ---
 
-## 16. **PowerToys**
+## 15. **PowerToys**
 
 > Conjunto de utilitários para usuários avançados do Windows.
 
 ```bash
-winget install "Microsoft.PowerToys" -i;
+winget install --id Microsoft.PowerToys --interactive;
 ```
 
 ---
 
-## 17. **PowerShell**
+## 16. **PowerShell**
 
 > Shell de linha de comando e linguagem de script da Microsoft.
 
 ```bash
-winget install --id "Microsoft.PowerShell" -i;
+winget install --id Microsoft.PowerShell --interactive;
 ```
 
 ---
 
-## 18. **MEGA Sync**
+## 17. **MEGA Sync**
 
 > Aplicativo de sincronização de arquivos com a nuvem MEGA.
 
 ```bash
-winget install "Mega.MEGASync" -i;
+winget install --id Mega.MEGASync --interactive;
 ```
 
 ---
 
-## 19. **MiniTool Partition Wizard Free**
+## 18. **MiniTool Partition Wizard Free**
 
 > Ferramenta gratuita de gerenciamento de partições de disco.
 
 ```bash
-winget install "MiniTool.PartitionWizard.Free" -i;
+winget install --id MiniTool.PartitionWizard.Free --interactive;
 ```
 
 ---
 
-## 20. **JW Library**
+## 19. **JW Library**
 
 > Aplicativo oficial das Testemunhas de Jeová para leitura da Bíblia.
 
 ```bash
-winget install "JW Library" -s msstore -i;
+winget install --name JW Library --silent;
 ```
 
 ---
 
-## 21. **WhatsApp**
+## 20. **WhatsApp**
 
 > Aplicativo de mensagens e chamadas de voz e vídeo.
 
 ```bash
-winget install "WhatsApp" -s msstore -i;
+winget install --name whatsapp --silent;
 ```
 
 ---
 
-## 22. **Unigram**
+## 21. **Unigram**
 
 > Cliente não oficial do Telegram para Windows.
 
 ```bash
-winget install "Telegram.Unigram" -i;
+winget install --id Telegram.Unigram --interactive;
 ```
 
 ---
 
-## 23. **Gather**
+## 22. **Gather**
 
 > Plataforma de videoconferência com ambientes virtuais.
 
 ```bash
-winget install "Gather.Gather" -i;
+winget install --id Gather.Gather --interactive;
 ```
 
 ---
 
-## 24. **MySQL Workbench**
+## 23. **MySQL Workbench**
 
 > Ferramenta visual para administração de bancos de dados MySQL.
 
 ```bash
-winget install "Oracle.MySQLWorkbench" -i;
+winget install --id Oracle.MySQLWorkbench --interactive;
 ```
 
 ---
 
-## 25. **Raspberry Pi Imager**
+## 24. **Raspberry Pi Imager**
 
 > Ferramenta para gravar sistemas operacionais em cartões SD para Raspberry Pi.
 
 ```bash
-winget install --id "RaspberryPiFoundation.RaspberryPiImager" -i;
+winget install --id RaspberryPiFoundation.RaspberryPiImager --interactive;
 ```
 
 ---
 
-## 26. **Azure CLI**
+## 25. **Azure CLI**
 
 > Interface de linha de comando para gerenciar recursos do Azure.
 
 ```bash
-winget install --id "Microsoft.AzureCLI" -i;
+winget install --id Microsoft.AzureCLI --interactive;
 ```
 
 ---
 
-## 27. **AWS CLI**
+## 26. **AWS CLI**
 
 > Interface de linha de comando para gerenciar serviços da AWS.
 
 ```bash
-winget install --id "Amazon.AWSCLI" -i;
+winget install --id Amazon.AWSCLI --interactive;
 ```
 
 ---
 
-## 28. **Bitvise SSH Client**
+## 27. **Bitvise SSH Client**
 
 > Cliente SSH para Windows com suporte a SFTP.
 
 ```bash
-winget install --id "Bitvise.SSH.Client" -i;
+winget install --id Bitvise.SSH.Client --interactive;
 ```
 
 ---
 
-## 29. **PostgreSQL ODBC Driver**
+## 28. **PostgreSQL ODBC Driver**
 
 > Driver ODBC para conectar-se a bancos de dados PostgreSQL.
 
 ```bash
-winget install --id "PostgreSQL.psqlODBC" -i;
+winget install --id PostgreSQL.psqlODBC --interactive;
 ```
 
 ---
 
-## 30. **DigitalOcean CLI**
+## 29. **DigitalOcean CLI**
 
 > Interface de linha de comando para gerenciar recursos do DigitalOcean.
 
 ```bash
-winget install --id "DigitalOcean.Doctl" -i;
+winget install --id DigitalOcean.Doctl --interactive;
 ```
 
 ---
 
-## 31. **Mikrotik Winbox Beta**
+## 30. **Mikrotik Winbox Beta**
 
 > Ferramenta de configuração para dispositivos Mikrotik.
 
 ```bash
-winget install --id "Mikrotik.Winbox.Beta" -i;
+winget install --id Mikrotik.Winbox.Beta --interactive;
 ```
 
 ---
 
-## 32. **AnyDesk**
+## 31. **AnyDesk**
 
 > Software de acesso remoto para computadores.
 
 ```bash
-winget install --id "AnyDeskSoftwareGmbH.AnyDesk" -i;
+winget install --id AnyDeskSoftwareGmbH.AnyDesk --interactive;
 ```
 
 ---
 
-## 33. **Redis Insight**
+## 32. **Redis Insight**
 
 > Ferramenta de gerenciamento e visualização de dados Redis.
 
 ```bash
-winget install "Redis Insight" -i;
+winget install --id Redis Insight --interactive;
 ```
 
 ---
