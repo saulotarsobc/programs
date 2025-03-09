@@ -5,7 +5,7 @@ const data: DataInterface[] = [
     name: "Visual Studio Code (VS Code)",
     id: "Microsoft.VisualStudioCode",
     shortDescription:
-      "::: warning\nA lightweight and powerful source code editor by Microsoft.\n:::",
+      "A lightweight and powerful source code editor by Microsoft.",
     source: "winget",
     interactive: true,
     type: "--id",
