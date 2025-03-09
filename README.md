@@ -5,7 +5,7 @@
 > Editor de código-fonte leve e poderoso da Microsoft.
 
 ```bash
-winget install --id Microsoft.VisualStudioCode --interactive;
+winget install --id "Microsoft.VisualStudioCode" --interactive;
 ```
 
 ---
@@ -15,7 +15,7 @@ winget install --id Microsoft.VisualStudioCode --interactive;
 > Sistema de controle de versão distribuído.
 
 ```bash
-winget install --id Git.Git --interactive;
+winget install --id "Git.Git" --interactive;
 ```
 
 ---
@@ -25,7 +25,7 @@ winget install --id Git.Git --interactive;
 > Aplicativo de desktop para gerenciar repositórios GitHub.
 
 ```bash
-winget install --id GitHub.GitHubDesktop --interactive;
+winget install --id "GitHub.GitHubDesktop" --interactive;
 ```
 
 ---
@@ -35,7 +35,7 @@ winget install --id GitHub.GitHubDesktop --interactive;
 > Ambiente de execução JavaScript server-side.
 
 ```bash
-winget install --id OpenJS.NodeJS.LTS --interactive;
+winget install --id "OpenJS.NodeJS.LTS" --interactive;
 ```
 
 ---
@@ -45,7 +45,7 @@ winget install --id OpenJS.NodeJS.LTS --interactive;
 > Editor de texto sofisticado para código, marcação e prosa.
 
 ```bash
-winget install --id SublimeHQ.SublimeText.4 --interactive;
+winget install --id "SublimeHQ.SublimeText.4" --interactive;
 ```
 
 ---
@@ -55,7 +55,7 @@ winget install --id SublimeHQ.SublimeText.4 --interactive;
 > Versão portátil do editor de texto Sublime Text 4.
 
 ```bash
-winget install --id SublimeHQ.SublimeText.4.Portable --interactive;
+winget install --id "SublimeHQ.SublimeText.4.Portable" --interactive;
 ```
 
 ---
@@ -65,7 +65,7 @@ winget install --id SublimeHQ.SublimeText.4.Portable --interactive;
 > Versão anterior do editor de texto Sublime Text.
 
 ```bash
-winget install --id SublimeHQ.SublimeText.3 --interactive;
+winget install --id "SublimeHQ.SublimeText.3" --interactive;
 ```
 
 ---
@@ -75,7 +75,7 @@ winget install --id SublimeHQ.SublimeText.3 --interactive;
 > Ferramenta de gerenciamento de banco de dados universal.
 
 ```bash
-winget install --id DBeaver Community Edition --interactive;
+winget install --id "DBeaver Community Edition" --interactive;
 ```
 
 ---
@@ -85,7 +85,7 @@ winget install --id DBeaver Community Edition --interactive;
 > Versão empresarial da ferramenta de gerenciamento de banco de dados DBeaver.
 
 ```bash
-winget install --id DBeaver Enterprise Edition --interactive;
+winget install --id "DBeaver Enterprise Edition" --interactive;
 ```
 
 ---
@@ -95,7 +95,7 @@ winget install --id DBeaver Enterprise Edition --interactive;
 > Ferramenta de colaboração para desenvolvimento de APIs.
 
 ```bash
-winget install --id Postman.Postman --interactive;
+winget install --id "Postman.Postman" --interactive;
 ```
 
 ---
@@ -105,7 +105,7 @@ winget install --id Postman.Postman --interactive;
 > Cliente HTTP para teste e desenvolvimento de APIs REST.
 
 ```bash
-winget install --id Insomnia.Insomnia --interactive;
+winget install --id "Insomnia.Insomnia" --interactive;
 ```
 
 ---
@@ -115,7 +115,7 @@ winget install --id Insomnia.Insomnia --interactive;
 > Ferramenta de design colaborativo baseada na web.
 
 ```bash
-winget install --id Figma.Figma --interactive;
+winget install --id "Figma.Figma" --interactive;
 ```
 
 ---
@@ -125,7 +125,7 @@ winget install --id Figma.Figma --interactive;
 > Aplicativo para construir e compartilhar aplicativos em contêineres.
 
 ```bash
-winget install --id Docker.DockerDesktop --interactive;
+winget install --id "Docker.DockerDesktop" --interactive;
 ```
 
 ---
@@ -135,7 +135,7 @@ winget install --id Docker.DockerDesktop --interactive;
 > Plataforma de videoconferência e reuniões online.
 
 ```bash
-winget install --id Zoom.Zoom --interactive;
+winget install --id "Zoom.Zoom" --interactive;
 ```
 
 ---
@@ -145,7 +145,7 @@ winget install --id Zoom.Zoom --interactive;
 > Conjunto de utilitários para usuários avançados do Windows.
 
 ```bash
-winget install --id Microsoft.PowerToys --interactive;
+winget install --id "Microsoft.PowerToys" --interactive;
 ```
 
 ---
@@ -155,7 +155,7 @@ winget install --id Microsoft.PowerToys --interactive;
 > Shell de linha de comando e linguagem de script da Microsoft.
 
 ```bash
-winget install --id Microsoft.PowerShell --interactive;
+winget install --id "Microsoft.PowerShell" --interactive;
 ```
 
 ---
@@ -165,7 +165,7 @@ winget install --id Microsoft.PowerShell --interactive;
 > Aplicativo de sincronização de arquivos com a nuvem MEGA.
 
 ```bash
-winget install --id Mega.MEGASync --interactive;
+winget install --id "Mega.MEGASync" --interactive;
 ```
 
 ---
@@ -175,7 +175,7 @@ winget install --id Mega.MEGASync --interactive;
 > Ferramenta gratuita de gerenciamento de partições de disco.
 
 ```bash
-winget install --id MiniTool.PartitionWizard.Free --interactive;
+winget install --id "MiniTool.PartitionWizard.Free" --interactive;
 ```
 
 ---
@@ -185,7 +185,7 @@ winget install --id MiniTool.PartitionWizard.Free --interactive;
 > Aplicativo oficial das Testemunhas de Jeová para leitura da Bíblia.
 
 ```bash
-winget install --name JW Library --silent;
+winget install --name "JW Library" --silent;
 ```
 
 ---
@@ -195,7 +195,7 @@ winget install --name JW Library --silent;
 > Aplicativo de mensagens e chamadas de voz e vídeo.
 
 ```bash
-winget install --name whatsapp --silent;
+winget install --name "whatsapp" --silent;
 ```
 
 ---
@@ -205,7 +205,7 @@ winget install --name whatsapp --silent;
 > Cliente não oficial do Telegram para Windows.
 
 ```bash
-winget install --id Telegram.Unigram --interactive;
+winget install --id "Telegram.Unigram" --interactive;
 ```
 
 ---
@@ -215,7 +215,7 @@ winget install --id Telegram.Unigram --interactive;
 > Plataforma de videoconferência com ambientes virtuais.
 
 ```bash
-winget install --id Gather.Gather --interactive;
+winget install --id "Gather.Gather" --interactive;
 ```
 
 ---
@@ -225,7 +225,7 @@ winget install --id Gather.Gather --interactive;
 > Ferramenta visual para administração de bancos de dados MySQL.
 
 ```bash
-winget install --id Oracle.MySQLWorkbench --interactive;
+winget install --id "Oracle.MySQLWorkbench" --interactive;
 ```
 
 ---
@@ -235,7 +235,7 @@ winget install --id Oracle.MySQLWorkbench --interactive;
 > Ferramenta para gravar sistemas operacionais em cartões SD para Raspberry Pi.
 
 ```bash
-winget install --id RaspberryPiFoundation.RaspberryPiImager --interactive;
+winget install --id "RaspberryPiFoundation.RaspberryPiImager" --interactive;
 ```
 
 ---
@@ -245,7 +245,7 @@ winget install --id RaspberryPiFoundation.RaspberryPiImager --interactive;
 > Interface de linha de comando para gerenciar recursos do Azure.
 
 ```bash
-winget install --id Microsoft.AzureCLI --interactive;
+winget install --id "Microsoft.AzureCLI" --interactive;
 ```
 
 ---
@@ -255,7 +255,7 @@ winget install --id Microsoft.AzureCLI --interactive;
 > Interface de linha de comando para gerenciar serviços da AWS.
 
 ```bash
-winget install --id Amazon.AWSCLI --interactive;
+winget install --id "Amazon.AWSCLI" --interactive;
 ```
 
 ---
@@ -265,7 +265,7 @@ winget install --id Amazon.AWSCLI --interactive;
 > Cliente SSH para Windows com suporte a SFTP.
 
 ```bash
-winget install --id Bitvise.SSH.Client --interactive;
+winget install --id "Bitvise.SSH.Client" --interactive;
 ```
 
 ---
@@ -275,7 +275,7 @@ winget install --id Bitvise.SSH.Client --interactive;
 > Driver ODBC para conectar-se a bancos de dados PostgreSQL.
 
 ```bash
-winget install --id PostgreSQL.psqlODBC --interactive;
+winget install --id "PostgreSQL.psqlODBC" --interactive;
 ```
 
 ---
@@ -285,7 +285,7 @@ winget install --id PostgreSQL.psqlODBC --interactive;
 > Interface de linha de comando para gerenciar recursos do DigitalOcean.
 
 ```bash
-winget install --id DigitalOcean.Doctl --interactive;
+winget install --id "DigitalOcean.Doctl" --interactive;
 ```
 
 ---
@@ -295,7 +295,7 @@ winget install --id DigitalOcean.Doctl --interactive;
 > Ferramenta de configuração para dispositivos Mikrotik.
 
 ```bash
-winget install --id Mikrotik.Winbox.Beta --interactive;
+winget install --id "Mikrotik.Winbox.Beta" --interactive;
 ```
 
 ---
@@ -305,7 +305,7 @@ winget install --id Mikrotik.Winbox.Beta --interactive;
 > Software de acesso remoto para computadores.
 
 ```bash
-winget install --id AnyDeskSoftwareGmbH.AnyDesk --interactive;
+winget install --id "AnyDeskSoftwareGmbH.AnyDesk" --interactive;
 ```
 
 ---
@@ -315,7 +315,7 @@ winget install --id AnyDeskSoftwareGmbH.AnyDesk --interactive;
 > Ferramenta de gerenciamento e visualização de dados Redis.
 
 ```bash
-winget install --id Redis Insight --interactive;
+winget install --id "Redis Insight" --interactive;
 ```
 
 ---
