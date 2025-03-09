@@ -66,7 +66,7 @@ const data: DataInterface[] = [
       "Ferramenta de gerenciamento de banco de dados universal.",
     source: "winget",
     interactive: true,
-    type: "--id",
+    type: "--name",
   },
   {
     name: "DBeaver Enterprise Edition",
@@ -75,7 +75,7 @@ const data: DataInterface[] = [
       "Versão empresarial da ferramenta de gerenciamento de banco de dados DBeaver.",
     source: "winget",
     interactive: true,
-    type: "--id",
+    type: "--name",
   },
   {
     name: "Postman",

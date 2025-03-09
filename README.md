@@ -75,7 +75,7 @@ winget install --id "SublimeHQ.SublimeText.3" --interactive;
 > Ferramenta de gerenciamento de banco de dados universal.
 
 ```bash
-winget install --id "DBeaver Community Edition" --interactive;
+winget install --name "DBeaver Community Edition" --interactive;
 ```
 
 ---
@@ -85,7 +85,7 @@ winget install --id "DBeaver Community Edition" --interactive;
 > Versão empresarial da ferramenta de gerenciamento de banco de dados DBeaver.
 
 ```bash
-winget install --id "DBeaver Enterprise Edition" --interactive;
+winget install --name "DBeaver Enterprise Edition" --interactive;
 ```
 
 ---
@@ -319,4 +319,3 @@ winget install --id "Redis Insight" --interactive;
 ```
 
 ---
-
