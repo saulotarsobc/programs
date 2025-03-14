@@ -320,3 +320,13 @@ winget install --id "Redis Insight" --interactive;
 
 ---
 
+## 33. **Oracle VirtualBox**
+
+> A powerful x86 and AMD64/Intel64 virtualization product.
+
+```bash
+winget install --id "Oracle.VirtualBox" --interactive;
+```
+
+---
+

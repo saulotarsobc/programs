@@ -272,6 +272,15 @@ const data: DataInterface[] = [
     interactive: true,
     type: "--id",
   },
+  {
+    name: "Oracle VirtualBox",
+    id: "Oracle.VirtualBox",
+    shortDescription:
+      "A powerful x86 and AMD64/Intel64 virtualization product.",
+    source: "winget",
+    interactive: true,
+    type: "--id",
+  },
 ];
 
 export const CONSTANTS = {
