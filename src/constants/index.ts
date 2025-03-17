@@ -281,6 +281,15 @@ const data: DataInterface[] = [
     interactive: true,
     type: "--id",
   },
+  {
+    name: "HashiCorp Vagrant",
+    id: "HashiCorp.Vagrant",
+    shortDescription:
+      "A tool for building and managing virtualized development environments.",
+    source: "winget",
+    interactive: true,
+    type: "--id",
+  },
 ];
 
 export const CONSTANTS = {

@@ -330,3 +330,13 @@ winget install --id "Oracle.VirtualBox" --interactive;
 
 ---
 
+## 34. **HashiCorp Vagrant**
+
+> A tool for building and managing virtualized development environments.
+
+```bash
+winget install --id "HashiCorp.Vagrant" --interactive;
+```
+
+---
+
