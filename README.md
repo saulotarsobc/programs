@@ -1,14 +1,4 @@
-# Apps
-
-## How to Install winget on Windows
-
-To install winget on Windows, you can use the following PowerShell command:
-
-```powershell
-Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://aka.ms/install-winget.ps1')
-```
-
----
+# Programs
 
 ## 1. **Visual Studio Code (VS Code)**
 
