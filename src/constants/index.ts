@@ -20,6 +20,14 @@ const programs: ProgramsInterface[] = [
     type: "--id",
   },
   {
+    name: "Android Studio",
+    id: "Google.AndroidStudio",
+    shortDescription: "The official IDE for Android development by Google.",
+    source: "winget",
+    interactive: true,
+    type: "--id",
+  },
+  {
     name: "Git",
     id: "Git.Git",
     shortDescription:
