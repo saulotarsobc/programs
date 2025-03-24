@@ -1,8 +1,8 @@
-import { DataInterface } from "./interfaces";
 import { writeFile } from "fs/promises";
 import { CONSTANTS } from "./constants";
+import { ProgramsInterface } from "./interfaces";
 
-function generateReadme(data: DataInterface[]) {
+function generateReadme(data: ProgramsInterface[]) {
   let readmeContent = "# Apps\n\n";
 
   readmeContent += "## How to Install winget on Windows\n\n";
@@ -18,9 +18,9 @@ function generateReadme(data: DataInterface[]) {
     readmeContent += `## ${index + 1}. **${app.name}**\n\n`;
     readmeContent += `> ${app.shortDescription}\n\n`;
     readmeContent += `\`\`\`bash\n`;
-    readmeContent += `winget install ${app.type} "${app.id}" ${
-      app.interactive ? "--interactive" : "--silent"
-    };\n`;
+    readmeContent += `winget install ${app.type} "${app.id}" --source ${
+      app.source
+    } ${app.interactive ? "--interactive" : "--silent"};\n`;
     readmeContent += `\`\`\`\n\n`;
     readmeContent += "---\n\n";
   });
@@ -40,8 +40,7 @@ function writeReadme(dst: string, content: string) {
 }
 
 async function main() {
-  const { data } = CONSTANTS;
-  const readme = generateReadme(data);
+  const readme = generateReadme(CONSTANTS.programs);
   writeReadme("README.md", readme);
 }
 

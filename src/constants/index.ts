@@ -1,6 +1,6 @@
-import { DataInterface } from "../interfaces";
+import { ProgramsInterface } from "../interfaces";
 
-const data: DataInterface[] = [
+const programs: ProgramsInterface[] = [
   {
     name: "Visual Studio Code (VS Code)",
     id: "Microsoft.VisualStudioCode",
@@ -156,7 +156,7 @@ const data: DataInterface[] = [
   },
   {
     name: "JW Library",
-    id: "JW Library",
+    id: "9WZDNCRFJ3B4",
     shortDescription:
       "The official app of Jehovah's Witnesses for reading the Bible.",
     source: "msstore",
@@ -165,11 +165,11 @@ const data: DataInterface[] = [
   },
   {
     name: "WhatsApp",
-    id: "whatsapp",
+    id: "9NKSQGP7F2NH",
     shortDescription: "A messaging and voice/video calling application.",
     source: "msstore",
     interactive: false,
-    type: "--name",
+    type: "--id",
   },
   {
     name: "Unigram",
@@ -293,5 +293,5 @@ const data: DataInterface[] = [
 ];
 
 export const CONSTANTS = {
-  data: data,
+  programs,
 };

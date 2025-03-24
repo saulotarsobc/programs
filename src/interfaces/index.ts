@@ -1,4 +1,4 @@
-export interface DataInterface {
+export interface ProgramsInterface {
   name: string;
   id: string;
   shortDescription: string;
