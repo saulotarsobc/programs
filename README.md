@@ -260,7 +260,17 @@ winget install --id "Amazon.AWSCLI" --source winget --interactive;
 
 ---
 
-## 27. **Bitvise SSH Client**
+## 27. **DigitalOcean CLI**
+
+> A command-line interface for managing DigitalOcean resources.
+
+```bash
+winget install --id "DigitalOcean.Doctl" --source winget --interactive;
+```
+
+---
+
+## 28. **Bitvise SSH Client**
 
 > An SSH client for Windows with SFTP support.
 
@@ -270,22 +280,12 @@ winget install --id "Bitvise.SSH.Client" --source winget --interactive;
 
 ---
 
-## 28. **PostgreSQL ODBC Driver**
+## 29. **PostgreSQL ODBC Driver**
 
 > An ODBC driver for connecting to PostgreSQL databases.
 
 ```bash
 winget install --id "PostgreSQL.psqlODBC" --source winget --interactive;
-```
-
----
-
-## 29. **DigitalOcean CLI**
-
-> A command-line interface for managing DigitalOcean resources.
-
-```bash
-winget install --id "DigitalOcean.Doctl" --source winget --interactive;
 ```
 
 ---

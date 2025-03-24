@@ -223,6 +223,15 @@ const programs: ProgramsInterface[] = [
     type: "--id",
   },
   {
+    name: "DigitalOcean CLI",
+    id: "DigitalOcean.Doctl",
+    shortDescription:
+      "A command-line interface for managing DigitalOcean resources.",
+    source: "winget",
+    interactive: true,
+    type: "--id",
+  },
+  {
     name: "Bitvise SSH Client",
     id: "Bitvise.SSH.Client",
     shortDescription: "An SSH client for Windows with SFTP support.",
@@ -238,15 +247,7 @@ const programs: ProgramsInterface[] = [
     interactive: true,
     type: "--id",
   },
-  {
-    name: "DigitalOcean CLI",
-    id: "DigitalOcean.Doctl",
-    shortDescription:
-      "A command-line interface for managing DigitalOcean resources.",
-    source: "winget",
-    interactive: true,
-    type: "--id",
-  },
+
   {
     name: "Mikrotik Winbox Beta",
     id: "Mikrotik.Winbox.Beta",
