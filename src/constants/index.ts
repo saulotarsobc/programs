@@ -11,6 +11,15 @@ const programs: ProgramsInterface[] = [
     type: "--id",
   },
   {
+    name: "Trae",
+    id: "ByteDance.Trae",
+    shortDescription:
+      "An adaptive AI IDE that transforms how you work, collaborating with you to run faster.",
+    source: "winget",
+    interactive: true,
+    type: "--id",
+  },
+  {
     name: "Git",
     id: "Git.Git",
     shortDescription:
