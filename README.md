@@ -20,7 +20,17 @@ winget install --id "ByteDance.Trae" --source winget --interactive;
 
 ---
 
-## 3. **Android Studio**
+## 3. **Arduino IDE**
+
+> An open-source IDE for Arduino development.
+
+```bash
+winget install --id "9NBLGGH4RSD8" --source msstore --silent;
+```
+
+---
+
+## 4. **Android Studio**
 
 > The official IDE for Android development by Google.
 
@@ -30,37 +40,7 @@ winget install --id "Google.AndroidStudio" --source winget --interactive;
 
 ---
 
-## 4. **Git**
-
-> A distributed version control system for tracking changes in source code.
-
-```bash
-winget install --id "Git.Git" --source winget --interactive;
-```
-
----
-
-## 5. **GitHub Desktop**
-
-> A desktop application to manage GitHub repositories.
-
-```bash
-winget install --id "GitHub.GitHubDesktop" --source winget --interactive;
-```
-
----
-
-## 6. **Node.js**
-
-> A JavaScript runtime built on Chrome's V8 JavaScript engine.
-
-```bash
-winget install --id "OpenJS.NodeJS.LTS" --source winget --interactive;
-```
-
----
-
-## 7. **Sublime Text 4**
+## 5. **Sublime Text 4**
 
 > A sophisticated text editor for code, markup, and prose.
 
@@ -70,7 +50,7 @@ winget install --id "SublimeHQ.SublimeText.4" --source winget --interactive;
 
 ---
 
-## 8. **Sublime Text 4 (Portable)**
+## 6. **Sublime Text 4 (Portable)**
 
 > A portable version of the Sublime Text 4 editor.
 
@@ -80,7 +60,7 @@ winget install --id "SublimeHQ.SublimeText.4.Portable" --source winget --interac
 
 ---
 
-## 9. **Sublime Text 3**
+## 7. **Sublime Text 3**
 
 > The previous version of the Sublime Text editor.
 
@@ -90,7 +70,37 @@ winget install --id "SublimeHQ.SublimeText.3" --source winget --interactive;
 
 ---
 
-## 10. **DBeaver Community Edition (Free)**
+## 8. **Git**
+
+> A distributed version control system for tracking changes in source code.
+
+```bash
+winget install --id "Git.Git" --source winget --interactive;
+```
+
+---
+
+## 9. **GitHub Desktop**
+
+> A desktop application to manage GitHub repositories.
+
+```bash
+winget install --id "GitHub.GitHubDesktop" --source winget --interactive;
+```
+
+---
+
+## 10. **Node.js**
+
+> A JavaScript runtime built on Chrome's V8 JavaScript engine.
+
+```bash
+winget install --id "OpenJS.NodeJS.LTS" --source winget --interactive;
+```
+
+---
+
+## 11. **DBeaver Community Edition (Free)**
 
 > A universal database management tool.
 
@@ -100,7 +110,7 @@ winget install --name "DBeaver Community Edition" --source winget --interactive;
 
 ---
 
-## 11. **DBeaver Enterprise Edition**
+## 12. **DBeaver Enterprise Edition**
 
 > The enterprise version of the DBeaver database management tool.
 
@@ -110,7 +120,7 @@ winget install --name "DBeaver Enterprise Edition" --source winget --interactive
 
 ---
 
-## 12. **Postman**
+## 13. **Postman**
 
 > A collaboration platform for API development.
 
@@ -120,7 +130,7 @@ winget install --id "Postman.Postman" --source winget --interactive;
 
 ---
 
-## 13. **Insomnia**
+## 14. **Insomnia**
 
 > An HTTP client for testing and developing REST APIs.
 
@@ -130,7 +140,7 @@ winget install --id "Insomnia.Insomnia" --source winget --interactive;
 
 ---
 
-## 14. **Figma**
+## 15. **Figma**
 
 > A web-based collaborative design tool.
 
@@ -140,7 +150,7 @@ winget install --id "Figma.Figma" --source winget --interactive;
 
 ---
 
-## 15. **Docker Desktop**
+## 16. **Docker Desktop**
 
 > An application for building and sharing containerized applications.
 
@@ -150,7 +160,7 @@ winget install --id "Docker.DockerDesktop" --source winget --interactive;
 
 ---
 
-## 16. **Zoom**
+## 17. **Zoom**
 
 > A platform for video conferencing and online meetings.
 
@@ -160,7 +170,7 @@ winget install --id "Zoom.Zoom" --source winget --interactive;
 
 ---
 
-## 17. **PowerToys**
+## 18. **PowerToys**
 
 > A set of utilities for power users to tune and streamline their Windows experience.
 
@@ -170,7 +180,7 @@ winget install --id "Microsoft.PowerToys" --source winget --interactive;
 
 ---
 
-## 18. **PowerShell**
+## 19. **PowerShell**
 
 > A command-line shell and scripting language by Microsoft.
 
@@ -180,7 +190,7 @@ winget install --id "Microsoft.PowerShell" --source winget --interactive;
 
 ---
 
-## 19. **MEGA Sync**
+## 20. **MEGA Sync**
 
 > A file synchronization application for the MEGA cloud storage service.
 
@@ -190,7 +200,7 @@ winget install --id "Mega.MEGASync" --source winget --interactive;
 
 ---
 
-## 20. **MiniTool Partition Wizard Free**
+## 21. **MiniTool Partition Wizard Free**
 
 > A free tool for managing disk partitions.
 
@@ -200,7 +210,7 @@ winget install --id "MiniTool.PartitionWizard.Free" --source winget --interactiv
 
 ---
 
-## 21. **JW Library**
+## 22. **JW Library**
 
 > The official app of Jehovah's Witnesses for reading the Bible.
 
@@ -210,7 +220,7 @@ winget install --name "9WZDNCRFJ3B4" --source msstore --silent;
 
 ---
 
-## 22. **WhatsApp**
+## 23. **WhatsApp**
 
 > A messaging and voice/video calling application.
 
@@ -220,7 +230,7 @@ winget install --id "9NKSQGP7F2NH" --source msstore --silent;
 
 ---
 
-## 23. **Unigram**
+## 24. **Unigram**
 
 > An unofficial Telegram client for Windows.
 
@@ -230,7 +240,7 @@ winget install --id "Telegram.Unigram" --source winget --interactive;
 
 ---
 
-## 24. **Gather**
+## 25. **Gather**
 
 > A video conferencing platform with virtual environments.
 
@@ -240,7 +250,7 @@ winget install --id "Gather.Gather" --source winget --interactive;
 
 ---
 
-## 25. **MySQL Workbench**
+## 26. **MySQL Workbench**
 
 > A visual tool for database design and administration of MySQL databases.
 
@@ -250,7 +260,7 @@ winget install --id "Oracle.MySQLWorkbench" --source winget --interactive;
 
 ---
 
-## 26. **Raspberry Pi Imager**
+## 27. **Raspberry Pi Imager**
 
 > A tool to write operating system images to SD cards for Raspberry Pi.
 
@@ -260,7 +270,7 @@ winget install --id "RaspberryPiFoundation.RaspberryPiImager" --source winget --
 
 ---
 
-## 27. **Azure CLI**
+## 28. **Azure CLI**
 
 > A command-line interface for managing Azure resources.
 
@@ -270,7 +280,7 @@ winget install --id "Microsoft.AzureCLI" --source winget --interactive;
 
 ---
 
-## 28. **AWS CLI**
+## 29. **AWS CLI**
 
 > A command-line interface for managing AWS services.
 
@@ -280,7 +290,7 @@ winget install --id "Amazon.AWSCLI" --source winget --interactive;
 
 ---
 
-## 29. **DigitalOcean CLI**
+## 30. **DigitalOcean CLI**
 
 > A command-line interface for managing DigitalOcean resources.
 
@@ -290,7 +300,7 @@ winget install --id "DigitalOcean.Doctl" --source winget --interactive;
 
 ---
 
-## 30. **Bitvise SSH Client**
+## 31. **Bitvise SSH Client**
 
 > An SSH client for Windows with SFTP support.
 
@@ -300,7 +310,7 @@ winget install --id "Bitvise.SSH.Client" --source winget --interactive;
 
 ---
 
-## 31. **PostgreSQL ODBC Driver**
+## 32. **PostgreSQL ODBC Driver**
 
 > An ODBC driver for connecting to PostgreSQL databases.
 
@@ -310,7 +320,7 @@ winget install --id "PostgreSQL.psqlODBC" --source winget --interactive;
 
 ---
 
-## 32. **Mikrotik Winbox Beta**
+## 33. **Mikrotik Winbox Beta**
 
 > A configuration tool for Mikrotik devices.
 
@@ -320,7 +330,7 @@ winget install --id "Mikrotik.Winbox.Beta" --source winget --interactive;
 
 ---
 
-## 33. **AnyDesk**
+## 34. **AnyDesk**
 
 > A remote desktop software for accessing computers remotely.
 
@@ -330,7 +340,7 @@ winget install --id "AnyDeskSoftwareGmbH.AnyDesk" --source winget --interactive;
 
 ---
 
-## 34. **Redis Insight**
+## 35. **Redis Insight**
 
 > A management and visualization tool for Redis data.
 
@@ -340,7 +350,7 @@ winget install --id "Redis Insight" --source winget --interactive;
 
 ---
 
-## 35. **Oracle VirtualBox**
+## 36. **Oracle VirtualBox**
 
 > A powerful x86 and AMD64/Intel64 virtualization product.
 
@@ -350,7 +360,7 @@ winget install --id "Oracle.VirtualBox" --source winget --interactive;
 
 ---
 
-## 36. **HashiCorp Vagrant**
+## 37. **HashiCorp Vagrant**
 
 > A tool for building and managing virtualized development environments.
 
