@@ -258,6 +258,15 @@ const programs: ProgramsInterface[] = [
     type: "--id",
   },
   {
+    name: "HashiCorp Terraform",
+    id: "HashiCorp.Terraform",
+    shortDescription:
+      "An infrastructure as code tool for building and managing cloud resources.",
+    source: "winget",
+    interactive: true,
+    type: "--id",
+  },
+  {
     name: "Bitvise SSH Client",
     id: "Bitvise.SSH.Client",
     shortDescription: "An SSH client for Windows with SFTP support.",

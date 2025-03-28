@@ -300,7 +300,17 @@ winget install --id "DigitalOcean.Doctl" --source winget --interactive;
 
 ---
 
-## 31. **Bitvise SSH Client**
+## 31. **HashiCorp Terraform**
+
+> An infrastructure as code tool for building and managing cloud resources.
+
+```bash
+winget install --id "HashiCorp.Terraform" --source winget --interactive;
+```
+
+---
+
+## 32. **Bitvise SSH Client**
 
 > An SSH client for Windows with SFTP support.
 
@@ -310,7 +320,7 @@ winget install --id "Bitvise.SSH.Client" --source winget --interactive;
 
 ---
 
-## 32. **PostgreSQL ODBC Driver**
+## 33. **PostgreSQL ODBC Driver**
 
 > An ODBC driver for connecting to PostgreSQL databases.
 
@@ -320,7 +330,7 @@ winget install --id "PostgreSQL.psqlODBC" --source winget --interactive;
 
 ---
 
-## 33. **Mikrotik Winbox Beta**
+## 34. **Mikrotik Winbox Beta**
 
 > A configuration tool for Mikrotik devices.
 
@@ -330,7 +340,7 @@ winget install --id "Mikrotik.Winbox.Beta" --source winget --interactive;
 
 ---
 
-## 34. **AnyDesk**
+## 35. **AnyDesk**
 
 > A remote desktop software for accessing computers remotely.
 
@@ -340,7 +350,7 @@ winget install --id "AnyDeskSoftwareGmbH.AnyDesk" --source winget --interactive;
 
 ---
 
-## 35. **Redis Insight**
+## 36. **Redis Insight**
 
 > A management and visualization tool for Redis data.
 
@@ -350,7 +360,7 @@ winget install --id "Redis Insight" --source winget --interactive;
 
 ---
 
-## 36. **Oracle VirtualBox**
+## 37. **Oracle VirtualBox**
 
 > A powerful x86 and AMD64/Intel64 virtualization product.
 
@@ -360,7 +370,7 @@ winget install --id "Oracle.VirtualBox" --source winget --interactive;
 
 ---
 
-## 37. **HashiCorp Vagrant**
+## 38. **HashiCorp Vagrant**
 
 > A tool for building and managing virtualized development environments.
 
