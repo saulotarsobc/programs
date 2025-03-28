@@ -380,7 +380,17 @@ winget install --id "HashiCorp.Vagrant" --source winget --interactive;
 
 ---
 
-## 39. **spacedesk VIEWER**
+## 39. **spacedesk Driver**
+
+> A Windows driver for spacedesk software to turn mobile devices, laptops and desktops into an additional extension display monitor for Windows machines.
+
+```bash
+winget install --id "Datronicsoft.SpacedeskDriver.Server" --source winget --interactive;
+```
+
+---
+
+## 40. **spacedesk**
 
 > spacedesk software turns mobile devices, laptops and desktops into an additional extension display monitor for Windows machines. Windows can smoothly be moved to and from other connected monitors.
 
@@ -389,3 +399,4 @@ winget install --id "9NBLGGH4TRM4" --source msstore --silent;
 ```
 
 ---
+

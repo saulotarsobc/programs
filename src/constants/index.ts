@@ -326,6 +326,16 @@ const programs: ProgramsInterface[] = [
     interactive: true,
     type: "--id",
   },
+
+  {
+    name: "spacedesk Driver",
+    id: "Datronicsoft.SpacedeskDriver.Server",
+    shortDescription:
+      "A Windows driver for spacedesk software to turn mobile devices, laptops and desktops into an additional extension display monitor for Windows machines.",
+    source: "winget",
+    interactive: true,
+    type: "--id",
+  },
   {
     name: "spacedesk",
     id: "9NBLGGH4TRM4",
