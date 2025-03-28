@@ -380,3 +380,13 @@ winget install --id "HashiCorp.Vagrant" --source winget --interactive;
 
 ---
 
+## 39. **spacedesk**
+
+> spacedesk software turns mobile devices, laptops and desktops into an additional extension display monitor for Windows machines. Windows can smoothly be moved to and from other connected monitors.
+
+```bash
+winget install --id "9NBLGGH4TRM4" --source msstore --silent;
+```
+
+---
+

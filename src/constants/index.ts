@@ -326,6 +326,15 @@ const programs: ProgramsInterface[] = [
     interactive: true,
     type: "--id",
   },
+  {
+    name: "spacedesk",
+    id: "9NBLGGH4TRM4",
+    shortDescription:
+      "spacedesk software turns mobile devices, laptops and desktops into an additional extension display monitor for Windows machines. Windows can smoothly be moved to and from other connected monitors.",
+    source: "msstore",
+    interactive: false,
+    type: "--id",
+  },
 ];
 
 export const CONSTANTS = {
