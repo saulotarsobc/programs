@@ -345,6 +345,23 @@ const programs: ProgramsInterface[] = [
     interactive: false,
     type: "--id",
   },
+  {
+    name: "Oracle JDK 24",
+    id: "Oracle.JDK.24",
+    shortDescription:
+      "A development environment for building applications, applets, and components using the Java programming language.",
+    source: "winget",
+    interactive: true,
+    type: "--id",
+  },
+  {
+    name: "Warp",
+    id: "Warp.Warp",
+    shortDescription: "A modern, Rust-based terminal with AI-powered features.",
+    source: "winget",
+    interactive: true,
+    type: "--id",
+  },
 ];
 
 export const CONSTANTS = {

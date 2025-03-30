@@ -400,3 +400,23 @@ winget install --id "9NBLGGH4TRM4" --source msstore --silent;
 
 ---
 
+## 41. **Oracle JDK 24**
+
+> A development environment for building applications, applets, and components using the Java programming language.
+
+```bash
+winget install --id "Oracle.JDK.24" --source winget --interactive;
+```
+
+---
+
+## 42. **Warp**
+
+> A modern, Rust-based terminal with AI-powered features.
+
+```bash
+winget install --id "Warp.Warp" --source winget --interactive;
+```
+
+---
+
