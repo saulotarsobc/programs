@@ -430,3 +430,13 @@ winget install --id "Ollama.Ollama" --source winget --interactive;
 
 ---
 
+## 44. **LM Studio**
+
+> ​LM Studio is a desktop application developed by Element Labs Inc. that allows users to discover, download, and run large language models (LLMs) locally on their computers.
+
+```bash
+winget install --id "ElementLabs.LMStudio" --source winget --interactive;
+```
+
+---
+

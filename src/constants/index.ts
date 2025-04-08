@@ -371,6 +371,15 @@ const programs: ProgramsInterface[] = [
     interactive: true,
     type: "--id",
   },
+  {
+    name: "LM Studio",
+    id: "ElementLabs.LMStudio",
+    shortDescription:
+      "​LM Studio is a desktop application developed by Element Labs Inc. that allows users to discover, download, and run large language models (LLMs) locally on their computers.",
+    source: "winget",
+    interactive: true,
+    type: "--id",
+  },
 ];
 
 export const CONSTANTS = {
