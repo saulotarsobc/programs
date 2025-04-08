@@ -420,3 +420,13 @@ winget install --id "Warp.Warp" --source winget --interactive;
 
 ---
 
+## 43. **Ollama**
+
+> ​Ollama is a tool that enables you to run large language models (LLMs) directly on your local machine, offering benefits such as enhanced privacy, speed, and control without relying on internet connectivity.
+
+```bash
+winget install --id "Ollama.Ollama" --source winget --interactive;
+```
+
+---
+

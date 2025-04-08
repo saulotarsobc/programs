@@ -362,6 +362,15 @@ const programs: ProgramsInterface[] = [
     interactive: true,
     type: "--id",
   },
+  {
+    name: "Ollama",
+    id: "Ollama.Ollama",
+    shortDescription:
+      "​Ollama is a tool that enables you to run large language models (LLMs) directly on your local machine, offering benefits such as enhanced privacy, speed, and control without relying on internet connectivity.",
+    source: "winget",
+    interactive: true,
+    type: "--id",
+  },
 ];
 
 export const CONSTANTS = {
