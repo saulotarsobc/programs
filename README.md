@@ -70,7 +70,17 @@ winget install --id "SublimeHQ.SublimeText.3" --source winget --interactive;
 
 ---
 
-## 8. **Git**
+## 8. **Anthropic Claude**
+
+> A conversational AI assistant developed by Anthropic.
+
+```bash
+winget install --id "Anthropic.Claude" --source winget --interactive;
+```
+
+---
+
+## 9. **Git**
 
 > A distributed version control system for tracking changes in source code.
 
@@ -80,7 +90,7 @@ winget install --id "Git.Git" --source winget --interactive;
 
 ---
 
-## 9. **GitHub Desktop**
+## 10. **GitHub Desktop**
 
 > A desktop application to manage GitHub repositories.
 
@@ -90,7 +100,7 @@ winget install --id "GitHub.GitHubDesktop" --source winget --interactive;
 
 ---
 
-## 10. **Node.js**
+## 11. **Node.js**
 
 > A JavaScript runtime built on Chrome's V8 JavaScript engine.
 
@@ -100,7 +110,7 @@ winget install --id "OpenJS.NodeJS.LTS" --source winget --interactive;
 
 ---
 
-## 11. **DBeaver Community Edition (Free)**
+## 12. **DBeaver Community Edition (Free)**
 
 > A universal database management tool.
 
@@ -110,7 +120,7 @@ winget install --name "DBeaver Community Edition" --source winget --interactive;
 
 ---
 
-## 12. **DBeaver Enterprise Edition**
+## 13. **DBeaver Enterprise Edition**
 
 > The enterprise version of the DBeaver database management tool.
 
@@ -120,7 +130,7 @@ winget install --name "DBeaver Enterprise Edition" --source winget --interactive
 
 ---
 
-## 13. **Postman**
+## 14. **Postman**
 
 > A collaboration platform for API development.
 
@@ -130,7 +140,7 @@ winget install --id "Postman.Postman" --source winget --interactive;
 
 ---
 
-## 14. **Insomnia**
+## 15. **Insomnia**
 
 > An HTTP client for testing and developing REST APIs.
 
@@ -140,7 +150,7 @@ winget install --id "Insomnia.Insomnia" --source winget --interactive;
 
 ---
 
-## 15. **Figma**
+## 16. **Figma**
 
 > A web-based collaborative design tool.
 
@@ -150,7 +160,7 @@ winget install --id "Figma.Figma" --source winget --interactive;
 
 ---
 
-## 16. **Docker Desktop**
+## 17. **Docker Desktop**
 
 > An application for building and sharing containerized applications.
 
@@ -160,7 +170,7 @@ winget install --id "Docker.DockerDesktop" --source winget --interactive;
 
 ---
 
-## 17. **Zoom**
+## 18. **Zoom**
 
 > A platform for video conferencing and online meetings.
 
@@ -170,7 +180,7 @@ winget install --id "Zoom.Zoom" --source winget --interactive;
 
 ---
 
-## 18. **PowerToys**
+## 19. **PowerToys**
 
 > A set of utilities for power users to tune and streamline their Windows experience.
 
@@ -180,7 +190,7 @@ winget install --id "Microsoft.PowerToys" --source winget --interactive;
 
 ---
 
-## 19. **PowerShell**
+## 20. **PowerShell**
 
 > A command-line shell and scripting language by Microsoft.
 
@@ -190,7 +200,7 @@ winget install --id "Microsoft.PowerShell" --source winget --interactive;
 
 ---
 
-## 20. **MEGA Sync**
+## 21. **MEGA Sync**
 
 > A file synchronization application for the MEGA cloud storage service.
 
@@ -200,7 +210,7 @@ winget install --id "Mega.MEGASync" --source winget --interactive;
 
 ---
 
-## 21. **MiniTool Partition Wizard Free**
+## 22. **MiniTool Partition Wizard Free**
 
 > A free tool for managing disk partitions.
 
@@ -210,7 +220,7 @@ winget install --id "MiniTool.PartitionWizard.Free" --source winget --interactiv
 
 ---
 
-## 22. **JW Library**
+## 23. **JW Library**
 
 > The official app of Jehovah's Witnesses for reading the Bible.
 
@@ -220,7 +230,7 @@ winget install --name "9WZDNCRFJ3B4" --source msstore --silent;
 
 ---
 
-## 23. **WhatsApp**
+## 24. **WhatsApp**
 
 > A messaging and voice/video calling application.
 
@@ -230,7 +240,7 @@ winget install --id "9NKSQGP7F2NH" --source msstore --silent;
 
 ---
 
-## 24. **Unigram**
+## 25. **Unigram**
 
 > An unofficial Telegram client for Windows.
 
@@ -240,7 +250,7 @@ winget install --id "Telegram.Unigram" --source winget --interactive;
 
 ---
 
-## 25. **Gather**
+## 26. **Gather**
 
 > A video conferencing platform with virtual environments.
 
@@ -250,7 +260,7 @@ winget install --id "Gather.Gather" --source winget --interactive;
 
 ---
 
-## 26. **MySQL Workbench**
+## 27. **MySQL Workbench**
 
 > A visual tool for database design and administration of MySQL databases.
 
@@ -260,7 +270,7 @@ winget install --id "Oracle.MySQLWorkbench" --source winget --interactive;
 
 ---
 
-## 27. **Raspberry Pi Imager**
+## 28. **Raspberry Pi Imager**
 
 > A tool to write operating system images to SD cards for Raspberry Pi.
 
@@ -270,7 +280,7 @@ winget install --id "RaspberryPiFoundation.RaspberryPiImager" --source winget --
 
 ---
 
-## 28. **Azure CLI**
+## 29. **Azure CLI**
 
 > A command-line interface for managing Azure resources.
 
@@ -280,7 +290,7 @@ winget install --id "Microsoft.AzureCLI" --source winget --interactive;
 
 ---
 
-## 29. **AWS CLI**
+## 30. **AWS CLI**
 
 > A command-line interface for managing AWS services.
 
@@ -290,7 +300,7 @@ winget install --id "Amazon.AWSCLI" --source winget --interactive;
 
 ---
 
-## 30. **DigitalOcean CLI**
+## 31. **DigitalOcean CLI**
 
 > A command-line interface for managing DigitalOcean resources.
 
@@ -300,7 +310,7 @@ winget install --id "DigitalOcean.Doctl" --source winget --interactive;
 
 ---
 
-## 31. **HashiCorp Terraform**
+## 32. **HashiCorp Terraform**
 
 > An infrastructure as code tool for building and managing cloud resources.
 
@@ -310,7 +320,7 @@ winget install --id "HashiCorp.Terraform" --source winget --interactive;
 
 ---
 
-## 32. **Bitvise SSH Client**
+## 33. **Bitvise SSH Client**
 
 > An SSH client for Windows with SFTP support.
 
@@ -320,7 +330,7 @@ winget install --id "Bitvise.SSH.Client" --source winget --interactive;
 
 ---
 
-## 33. **PostgreSQL ODBC Driver**
+## 34. **PostgreSQL ODBC Driver**
 
 > An ODBC driver for connecting to PostgreSQL databases.
 
@@ -330,7 +340,7 @@ winget install --id "PostgreSQL.psqlODBC" --source winget --interactive;
 
 ---
 
-## 34. **Mikrotik Winbox Beta**
+## 35. **Mikrotik Winbox Beta**
 
 > A configuration tool for Mikrotik devices.
 
@@ -340,7 +350,7 @@ winget install --id "Mikrotik.Winbox.Beta" --source winget --interactive;
 
 ---
 
-## 35. **AnyDesk**
+## 36. **AnyDesk**
 
 > A remote desktop software for accessing computers remotely.
 
@@ -350,7 +360,7 @@ winget install --id "AnyDeskSoftwareGmbH.AnyDesk" --source winget --interactive;
 
 ---
 
-## 36. **Redis Insight**
+## 37. **Redis Insight**
 
 > A management and visualization tool for Redis data.
 
@@ -360,7 +370,7 @@ winget install --id "Redis Insight" --source winget --interactive;
 
 ---
 
-## 37. **Oracle VirtualBox**
+## 38. **Oracle VirtualBox**
 
 > A powerful x86 and AMD64/Intel64 virtualization product.
 
@@ -370,7 +380,7 @@ winget install --id "Oracle.VirtualBox" --source winget --interactive;
 
 ---
 
-## 38. **HashiCorp Vagrant**
+## 39. **HashiCorp Vagrant**
 
 > A tool for building and managing virtualized development environments.
 
@@ -380,7 +390,7 @@ winget install --id "HashiCorp.Vagrant" --source winget --interactive;
 
 ---
 
-## 39. **spacedesk Driver**
+## 40. **spacedesk Driver**
 
 > A Windows driver for spacedesk software to turn mobile devices, laptops and desktops into an additional extension display monitor for Windows machines.
 
@@ -390,7 +400,7 @@ winget install --id "Datronicsoft.SpacedeskDriver.Server" --source winget --inte
 
 ---
 
-## 40. **spacedesk**
+## 41. **spacedesk**
 
 > spacedesk software turns mobile devices, laptops and desktops into an additional extension display monitor for Windows machines. Windows can smoothly be moved to and from other connected monitors.
 
@@ -400,7 +410,7 @@ winget install --id "9NBLGGH4TRM4" --source msstore --silent;
 
 ---
 
-## 41. **Oracle JDK 24**
+## 42. **Oracle JDK 24**
 
 > A development environment for building applications, applets, and components using the Java programming language.
 
@@ -410,7 +420,7 @@ winget install --id "Oracle.JDK.24" --source winget --interactive;
 
 ---
 
-## 42. **Warp**
+## 43. **Warp**
 
 > A modern, Rust-based terminal with AI-powered features.
 
@@ -420,7 +430,7 @@ winget install --id "Warp.Warp" --source winget --interactive;
 
 ---
 
-## 43. **Ollama**
+## 44. **Ollama**
 
 > ​Ollama is a tool that enables you to run large language models (LLMs) directly on your local machine, offering benefits such as enhanced privacy, speed, and control without relying on internet connectivity.
 
@@ -430,7 +440,7 @@ winget install --id "Ollama.Ollama" --source winget --interactive;
 
 ---
 
-## 44. **LM Studio**
+## 45. **LM Studio**
 
 > ​LM Studio is a desktop application developed by Element Labs Inc. that allows users to discover, download, and run large language models (LLMs) locally on their computers.
 

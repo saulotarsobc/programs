@@ -35,7 +35,6 @@ const programs: ProgramsInterface[] = [
     interactive: true,
     type: "--id",
   },
-
   {
     name: "Sublime Text 4",
     id: "SublimeHQ.SublimeText.4",
@@ -57,6 +56,14 @@ const programs: ProgramsInterface[] = [
     name: "Sublime Text 3",
     id: "SublimeHQ.SublimeText.3",
     shortDescription: "The previous version of the Sublime Text editor.",
+    source: "winget",
+    interactive: true,
+    type: "--id",
+  },
+  {
+    name: "Anthropic Claude",
+    id: "Anthropic.Claude",
+    shortDescription: "A conversational AI assistant developed by Anthropic.",
     source: "winget",
     interactive: true,
     type: "--id",
