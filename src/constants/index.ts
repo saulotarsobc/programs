@@ -61,9 +61,10 @@ const programs: ProgramsInterface[] = [
     type: "--id",
   },
   {
-    name: "Anthropic Claude",
-    id: "Anthropic.Claude",
-    shortDescription: "A conversational AI assistant developed by Anthropic.",
+    name: "Anthropic Claude Code",
+    id: "Anthropic.ClaudeCode",
+    shortDescription:
+      "A command-line AI coding assistant that lets developers delegate programming tasks directly from their terminal.",
     source: "winget",
     interactive: true,
     type: "--id",

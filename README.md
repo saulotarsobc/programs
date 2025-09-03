@@ -70,12 +70,12 @@ winget install --id "SublimeHQ.SublimeText.3" --source winget --interactive;
 
 ---
 
-## 8. **Anthropic Claude**
+## 8. **Anthropic Claude Code**
 
-> A conversational AI assistant developed by Anthropic.
+> A command-line AI coding assistant that lets developers delegate programming tasks directly from their terminal.
 
 ```bash
-winget install --id "Anthropic.Claude" --source winget --interactive;
+winget install --id "Anthropic.ClaudeCode" --source winget --interactive;
 ```
 
 ---
