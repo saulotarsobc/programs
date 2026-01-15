@@ -115,7 +115,7 @@ winget install --id "OpenJS.NodeJS.LTS" --source winget --interactive;
 > A universal database management tool.
 
 ```bash
-winget install --name "DBeaver Community Edition" --source winget --interactive;
+winget install --name "DBeaver.DBeaver.Community" --source winget --interactive;
 ```
 
 ---
@@ -125,7 +125,7 @@ winget install --name "DBeaver Community Edition" --source winget --interactive;
 > The enterprise version of the DBeaver database management tool.
 
 ```bash
-winget install --name "DBeaver Enterprise Edition" --source winget --interactive;
+winget install --name "DBeaver.DBeaver.Enterprise" --source winget --interactive;
 ```
 
 ---

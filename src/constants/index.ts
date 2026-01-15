@@ -97,7 +97,7 @@ const programs: ProgramsInterface[] = [
   },
   {
     name: "DBeaver Community Edition (Free)",
-    id: "DBeaver Community Edition",
+    id: "DBeaver.DBeaver.Community",
     shortDescription: "A universal database management tool.",
     source: "winget",
     interactive: true,
@@ -105,7 +105,7 @@ const programs: ProgramsInterface[] = [
   },
   {
     name: "DBeaver Enterprise Edition",
-    id: "DBeaver Enterprise Edition",
+    id: "DBeaver.DBeaver.Enterprise",
     shortDescription:
       "The enterprise version of the DBeaver database management tool.",
     source: "winget",
