@@ -101,7 +101,7 @@ const programs: ProgramsInterface[] = [
     shortDescription: "A universal database management tool.",
     source: "winget",
     interactive: true,
-    type: "--name",
+    type: "--id",
   },
   {
     name: "DBeaver Enterprise Edition",
@@ -110,7 +110,7 @@ const programs: ProgramsInterface[] = [
       "The enterprise version of the DBeaver database management tool.",
     source: "winget",
     interactive: true,
-    type: "--name",
+    type: "--id",
   },
   {
     name: "Postman",
