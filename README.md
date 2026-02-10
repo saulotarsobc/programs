@@ -5,7 +5,7 @@
 > A lightweight and powerful source code editor by Microsoft.
 
 ```bash
-winget install --id "Microsoft.VisualStudioCode" --source winget --interactive;
+winget install -e --id "Microsoft.VisualStudioCode" --source winget;
 ```
 
 ---
@@ -15,7 +15,7 @@ winget install --id "Microsoft.VisualStudioCode" --source winget --interactive;
 > An adaptive AI IDE that transforms how you work, collaborating with you to run faster.
 
 ```bash
-winget install --id "ByteDance.Trae" --source winget --interactive;
+winget install -e --id "ByteDance.Trae" --source winget;
 ```
 
 ---
@@ -25,7 +25,7 @@ winget install --id "ByteDance.Trae" --source winget --interactive;
 > An open-source IDE for Arduino development.
 
 ```bash
-winget install --id "9NBLGGH4RSD8" --source msstore --silent;
+winget install -e --id "9NBLGGH4RSD8" --source msstore;
 ```
 
 ---
@@ -35,7 +35,7 @@ winget install --id "9NBLGGH4RSD8" --source msstore --silent;
 > The official IDE for Android development by Google.
 
 ```bash
-winget install --id "Google.AndroidStudio" --source winget --interactive;
+winget install -e --id "Google.AndroidStudio" --source winget;
 ```
 
 ---
@@ -45,7 +45,7 @@ winget install --id "Google.AndroidStudio" --source winget --interactive;
 > A sophisticated text editor for code, markup, and prose.
 
 ```bash
-winget install --id "SublimeHQ.SublimeText.4" --source winget --interactive;
+winget install -e --id "SublimeHQ.SublimeText.4" --source winget;
 ```
 
 ---
@@ -55,7 +55,7 @@ winget install --id "SublimeHQ.SublimeText.4" --source winget --interactive;
 > A portable version of the Sublime Text 4 editor.
 
 ```bash
-winget install --id "SublimeHQ.SublimeText.4.Portable" --source winget --interactive;
+winget install -e --id "SublimeHQ.SublimeText.4.Portable" --source winget;
 ```
 
 ---
@@ -65,7 +65,7 @@ winget install --id "SublimeHQ.SublimeText.4.Portable" --source winget --interac
 > The previous version of the Sublime Text editor.
 
 ```bash
-winget install --id "SublimeHQ.SublimeText.3" --source winget --interactive;
+winget install -e --id "SublimeHQ.SublimeText.3" --source winget;
 ```
 
 ---
@@ -75,7 +75,7 @@ winget install --id "SublimeHQ.SublimeText.3" --source winget --interactive;
 > A command-line AI coding assistant that lets developers delegate programming tasks directly from their terminal.
 
 ```bash
-winget install --id "Anthropic.ClaudeCode" --source winget --interactive;
+winget install -e --id "Anthropic.ClaudeCode" --source winget;
 ```
 
 ---
@@ -85,7 +85,7 @@ winget install --id "Anthropic.ClaudeCode" --source winget --interactive;
 > A distributed version control system for tracking changes in source code.
 
 ```bash
-winget install --id "Git.Git" --source winget --interactive;
+winget install -e --id "Git.Git" --source winget;
 ```
 
 ---
@@ -95,7 +95,7 @@ winget install --id "Git.Git" --source winget --interactive;
 > A desktop application to manage GitHub repositories.
 
 ```bash
-winget install --id "GitHub.GitHubDesktop" --source winget --interactive;
+winget install -e --id "GitHub.GitHubDesktop" --source winget;
 ```
 
 ---
@@ -105,7 +105,7 @@ winget install --id "GitHub.GitHubDesktop" --source winget --interactive;
 > A JavaScript runtime built on Chrome's V8 JavaScript engine.
 
 ```bash
-winget install --id "OpenJS.NodeJS.LTS" --source winget --interactive;
+winget install -e --id "OpenJS.NodeJS.LTS" --source winget;
 ```
 
 ---
@@ -115,7 +115,7 @@ winget install --id "OpenJS.NodeJS.LTS" --source winget --interactive;
 > A universal database management tool.
 
 ```bash
-winget install --id "DBeaver.DBeaver.Community" --source winget --interactive;
+winget install -e --id "DBeaver.DBeaver.Community" --source winget;
 ```
 
 ---
@@ -125,7 +125,7 @@ winget install --id "DBeaver.DBeaver.Community" --source winget --interactive;
 > The enterprise version of the DBeaver database management tool.
 
 ```bash
-winget install --id "DBeaver.DBeaver.Enterprise" --source winget --interactive;
+winget install -e --id "DBeaver.DBeaver.Enterprise" --source winget;
 ```
 
 ---
@@ -135,7 +135,7 @@ winget install --id "DBeaver.DBeaver.Enterprise" --source winget --interactive;
 > A collaboration platform for API development.
 
 ```bash
-winget install --id "Postman.Postman" --source winget --interactive;
+winget install -e --id "Postman.Postman" --source winget;
 ```
 
 ---
@@ -145,7 +145,7 @@ winget install --id "Postman.Postman" --source winget --interactive;
 > An HTTP client for testing and developing REST APIs.
 
 ```bash
-winget install --id "Insomnia.Insomnia" --source winget --interactive;
+winget install -e --id "Insomnia.Insomnia" --source winget;
 ```
 
 ---
@@ -155,7 +155,7 @@ winget install --id "Insomnia.Insomnia" --source winget --interactive;
 > A web-based collaborative design tool.
 
 ```bash
-winget install --id "Figma.Figma" --source winget --interactive;
+winget install -e --id "Figma.Figma" --source winget;
 ```
 
 ---
@@ -165,7 +165,7 @@ winget install --id "Figma.Figma" --source winget --interactive;
 > An application for building and sharing containerized applications.
 
 ```bash
-winget install --id "Docker.DockerDesktop" --source winget --interactive;
+winget install -e --id "Docker.DockerDesktop" --source winget;
 ```
 
 ---
@@ -175,7 +175,7 @@ winget install --id "Docker.DockerDesktop" --source winget --interactive;
 > A platform for video conferencing and online meetings.
 
 ```bash
-winget install --id "Zoom.Zoom" --source winget --interactive;
+winget install -e --id "Zoom.Zoom" --source winget;
 ```
 
 ---
@@ -185,7 +185,7 @@ winget install --id "Zoom.Zoom" --source winget --interactive;
 > A set of utilities for power users to tune and streamline their Windows experience.
 
 ```bash
-winget install --id "Microsoft.PowerToys" --source winget --interactive;
+winget install -e --id "Microsoft.PowerToys" --source winget;
 ```
 
 ---
@@ -195,7 +195,7 @@ winget install --id "Microsoft.PowerToys" --source winget --interactive;
 > A command-line shell and scripting language by Microsoft.
 
 ```bash
-winget install --id "Microsoft.PowerShell" --source winget --interactive;
+winget install -e --id "Microsoft.PowerShell" --source winget;
 ```
 
 ---
@@ -205,7 +205,7 @@ winget install --id "Microsoft.PowerShell" --source winget --interactive;
 > A file synchronization application for the MEGA cloud storage service.
 
 ```bash
-winget install --id "Mega.MEGASync" --source winget --interactive;
+winget install -e --id "Mega.MEGASync" --source winget;
 ```
 
 ---
@@ -215,7 +215,7 @@ winget install --id "Mega.MEGASync" --source winget --interactive;
 > A free tool for managing disk partitions.
 
 ```bash
-winget install --id "MiniTool.PartitionWizard.Free" --source winget --interactive;
+winget install -e --id "MiniTool.PartitionWizard.Free" --source winget;
 ```
 
 ---
@@ -225,7 +225,7 @@ winget install --id "MiniTool.PartitionWizard.Free" --source winget --interactiv
 > The official app of Jehovah's Witnesses for reading the Bible.
 
 ```bash
-winget install --name "9WZDNCRFJ3B4" --source msstore --silent;
+winget install -e --id "9WZDNCRFJ3B4" --source msstore;
 ```
 
 ---
@@ -235,7 +235,7 @@ winget install --name "9WZDNCRFJ3B4" --source msstore --silent;
 > A messaging and voice/video calling application.
 
 ```bash
-winget install --id "9NKSQGP7F2NH" --source msstore --silent;
+winget install -e --id "9NKSQGP7F2NH" --source msstore;
 ```
 
 ---
@@ -245,7 +245,7 @@ winget install --id "9NKSQGP7F2NH" --source msstore --silent;
 > An unofficial Telegram client for Windows.
 
 ```bash
-winget install --id "Telegram.Unigram" --source winget --interactive;
+winget install -e --id "Telegram.Unigram" --source winget;
 ```
 
 ---
@@ -255,7 +255,7 @@ winget install --id "Telegram.Unigram" --source winget --interactive;
 > A video conferencing platform with virtual environments.
 
 ```bash
-winget install --id "Gather.Gather" --source winget --interactive;
+winget install -e --id "Gather.Gather" --source winget;
 ```
 
 ---
@@ -265,7 +265,7 @@ winget install --id "Gather.Gather" --source winget --interactive;
 > A visual tool for database design and administration of MySQL databases.
 
 ```bash
-winget install --id "Oracle.MySQLWorkbench" --source winget --interactive;
+winget install -e --id "Oracle.MySQLWorkbench" --source winget;
 ```
 
 ---
@@ -275,7 +275,7 @@ winget install --id "Oracle.MySQLWorkbench" --source winget --interactive;
 > A tool to write operating system images to SD cards for Raspberry Pi.
 
 ```bash
-winget install --id "RaspberryPiFoundation.RaspberryPiImager" --source winget --interactive;
+winget install -e --id "RaspberryPiFoundation.RaspberryPiImager" --source winget;
 ```
 
 ---
@@ -285,7 +285,7 @@ winget install --id "RaspberryPiFoundation.RaspberryPiImager" --source winget --
 > A command-line interface for managing Azure resources.
 
 ```bash
-winget install --id "Microsoft.AzureCLI" --source winget --interactive;
+winget install -e --id "Microsoft.AzureCLI" --source winget;
 ```
 
 ---
@@ -295,7 +295,7 @@ winget install --id "Microsoft.AzureCLI" --source winget --interactive;
 > A command-line interface for managing AWS services.
 
 ```bash
-winget install --id "Amazon.AWSCLI" --source winget --interactive;
+winget install -e --id "Amazon.AWSCLI" --source winget;
 ```
 
 ---
@@ -305,7 +305,7 @@ winget install --id "Amazon.AWSCLI" --source winget --interactive;
 > A command-line interface for managing DigitalOcean resources.
 
 ```bash
-winget install --id "DigitalOcean.Doctl" --source winget --interactive;
+winget install -e --id "DigitalOcean.Doctl" --source winget;
 ```
 
 ---
@@ -315,7 +315,7 @@ winget install --id "DigitalOcean.Doctl" --source winget --interactive;
 > An infrastructure as code tool for building and managing cloud resources.
 
 ```bash
-winget install --id "HashiCorp.Terraform" --source winget --interactive;
+winget install -e --id "HashiCorp.Terraform" --source winget;
 ```
 
 ---
@@ -325,7 +325,7 @@ winget install --id "HashiCorp.Terraform" --source winget --interactive;
 > An SSH client for Windows with SFTP support.
 
 ```bash
-winget install --id "Bitvise.SSH.Client" --source winget --interactive;
+winget install -e --id "Bitvise.SSH.Client" --source winget;
 ```
 
 ---
@@ -335,7 +335,7 @@ winget install --id "Bitvise.SSH.Client" --source winget --interactive;
 > An ODBC driver for connecting to PostgreSQL databases.
 
 ```bash
-winget install --id "PostgreSQL.psqlODBC" --source winget --interactive;
+winget install -e --id "PostgreSQL.psqlODBC" --source winget;
 ```
 
 ---
@@ -345,7 +345,7 @@ winget install --id "PostgreSQL.psqlODBC" --source winget --interactive;
 > A configuration tool for Mikrotik devices.
 
 ```bash
-winget install --id "Mikrotik.Winbox.Beta" --source winget --interactive;
+winget install -e --id "Mikrotik.Winbox.Beta" --source winget;
 ```
 
 ---
@@ -355,7 +355,7 @@ winget install --id "Mikrotik.Winbox.Beta" --source winget --interactive;
 > A remote desktop software for accessing computers remotely.
 
 ```bash
-winget install --id "AnyDeskSoftwareGmbH.AnyDesk" --source winget --interactive;
+winget install -e --id "AnyDeskSoftwareGmbH.AnyDesk" --source winget;
 ```
 
 ---
@@ -365,7 +365,7 @@ winget install --id "AnyDeskSoftwareGmbH.AnyDesk" --source winget --interactive;
 > A management and visualization tool for Redis data.
 
 ```bash
-winget install --id "Redis Insight" --source winget --interactive;
+winget install -e --id "XP8K1GHCB0F1R2" --source winget;
 ```
 
 ---
@@ -375,7 +375,7 @@ winget install --id "Redis Insight" --source winget --interactive;
 > A powerful x86 and AMD64/Intel64 virtualization product.
 
 ```bash
-winget install --id "Oracle.VirtualBox" --source winget --interactive;
+winget install -e --id "Oracle.VirtualBox" --source winget;
 ```
 
 ---
@@ -385,7 +385,7 @@ winget install --id "Oracle.VirtualBox" --source winget --interactive;
 > A tool for building and managing virtualized development environments.
 
 ```bash
-winget install --id "HashiCorp.Vagrant" --source winget --interactive;
+winget install -e --id "HashiCorp.Vagrant" --source winget;
 ```
 
 ---
@@ -395,7 +395,7 @@ winget install --id "HashiCorp.Vagrant" --source winget --interactive;
 > A Windows driver for spacedesk software to turn mobile devices, laptops and desktops into an additional extension display monitor for Windows machines.
 
 ```bash
-winget install --id "Datronicsoft.SpacedeskDriver.Server" --source winget --interactive;
+winget install -e --id "Datronicsoft.SpacedeskDriver.Server" --source winget;
 ```
 
 ---
@@ -405,7 +405,7 @@ winget install --id "Datronicsoft.SpacedeskDriver.Server" --source winget --inte
 > spacedesk software turns mobile devices, laptops and desktops into an additional extension display monitor for Windows machines. Windows can smoothly be moved to and from other connected monitors.
 
 ```bash
-winget install --id "9NBLGGH4TRM4" --source msstore --silent;
+winget install -e --id "9NBLGGH4TRM4" --source msstore;
 ```
 
 ---
@@ -415,7 +415,7 @@ winget install --id "9NBLGGH4TRM4" --source msstore --silent;
 > A development environment for building applications, applets, and components using the Java programming language.
 
 ```bash
-winget install --id "Oracle.JDK.24" --source winget --interactive;
+winget install -e --id "Oracle.JDK.24" --source winget;
 ```
 
 ---
@@ -425,7 +425,7 @@ winget install --id "Oracle.JDK.24" --source winget --interactive;
 > A modern, Rust-based terminal with AI-powered features.
 
 ```bash
-winget install --id "Warp.Warp" --source winget --interactive;
+winget install -e --id "Warp.Warp" --source winget;
 ```
 
 ---
@@ -435,7 +435,7 @@ winget install --id "Warp.Warp" --source winget --interactive;
 > ​Ollama is a tool that enables you to run large language models (LLMs) directly on your local machine, offering benefits such as enhanced privacy, speed, and control without relying on internet connectivity.
 
 ```bash
-winget install --id "Ollama.Ollama" --source winget --interactive;
+winget install -e --id "Ollama.Ollama" --source winget;
 ```
 
 ---
@@ -445,7 +445,27 @@ winget install --id "Ollama.Ollama" --source winget --interactive;
 > ​LM Studio is a desktop application developed by Element Labs Inc. that allows users to discover, download, and run large language models (LLMs) locally on their computers.
 
 ```bash
-winget install --id "ElementLabs.LMStudio" --source winget --interactive;
+winget install -e --id "ElementLabs.LMStudio" --source winget;
+```
+
+---
+
+## 46. **Google Drive**
+
+> A file storage and synchronization service developed by Google.
+
+```bash
+winget install -e --id "Google.GoogleDrive" --source winget;
+```
+
+---
+
+## 47. **LocalSend**
+
+> A simple, open-source file transfer tool for sharing files across devices on the same network.
+
+```bash
+winget install -e --id "LocalSend.LocalSend" --source winget;
 ```
 
 ---
