@@ -1,8 +1,6 @@
 export interface ProgramsInterface {
   name: string;
   id: string;
-  shortDescription: string;
-  interactive: boolean;
-  type: "--name" | "--id";
+  description: string;
   source: "winget" | "msstore";
 }

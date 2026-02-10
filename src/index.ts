@@ -7,11 +7,11 @@ function generateReadme(data: ProgramsInterface[]) {
 
   data.forEach((app, index) => {
     readmeContent += `## ${index + 1}. **${app.name}**\n\n`;
-    readmeContent += `> ${app.shortDescription}\n\n`;
+    readmeContent += `> ${app.description}\n\n`;
     readmeContent += `\`\`\`bash\n`;
-    readmeContent += `winget install ${app.type} "${app.id}" --source ${
+    readmeContent += `winget install -e --id "${app.id}" --source ${
       app.source
-    } ${app.interactive ? "--interactive" : "--silent"};\n`;
+    };\n`;
     readmeContent += `\`\`\`\n\n`;
     readmeContent += "---\n\n";
   });
