@@ -1,6 +1,6 @@
 import { ProgramsInterface } from "../interfaces";
 
-const programs: ProgramsInterface[] = [
+export const programs: ProgramsInterface[] = [
   {
     name: "Visual Studio Code (VS Code)",
     id: "Microsoft.VisualStudioCode",
@@ -313,7 +313,3 @@ const programs: ProgramsInterface[] = [
     source: "winget",
   },
 ];
-
-export const CONSTANTS = {
-  programs,
-};

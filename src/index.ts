@@ -1,5 +1,5 @@
 import { writeFile } from "fs/promises";
-import { CONSTANTS } from "./constants";
+import { programs } from "./constants";
 import { ProgramsInterface } from "./interfaces";
 
 function generateReadme(data: ProgramsInterface[]) {
@@ -31,7 +31,7 @@ function writeReadme(dst: string, content: string) {
 }
 
 async function main() {
-  const readme = generateReadme(CONSTANTS.programs);
+  const readme = generateReadme(programs);
   writeReadme("README.md", readme);
 }
 
