@@ -305,6 +305,13 @@ const programs: ProgramsInterface[] = [
       "A simple, open-source file transfer tool for sharing files across devices on the same network.",
     source: "winget",
   },
+  {
+    name: "Memento Database Desktop",
+    id: "MementoDB.MementoDatabaseDesktop",
+    description:
+      "A personal database management tool for organizing and managing various types of data.",
+    source: "winget",
+  },
 ];
 
 export const CONSTANTS = {

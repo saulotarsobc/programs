@@ -165,7 +165,7 @@ winget install -e --id "Figma.Figma" --source winget;
 > An application for building and sharing containerized applications.
 
 ```bash
-winget install -e --id "Docker.DockerDesktop" --source winget;
+winget install -e --id "Docker.DockerDesktop" --source msstore;
 ```
 
 ---
@@ -466,6 +466,16 @@ winget install -e --id "Google.GoogleDrive" --source winget;
 
 ```bash
 winget install -e --id "LocalSend.LocalSend" --source winget;
+```
+
+---
+
+## 48. **Memento Database Desktop**
+
+> A personal database management tool for organizing and managing various types of data.
+
+```bash
+winget install -e --id "MementoDB.MementoDatabaseDesktop" --source winget;
 ```
 
 ---
