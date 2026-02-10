@@ -312,4 +312,11 @@ export const programs: ProgramsInterface[] = [
       "A personal database management tool for organizing and managing various types of data.",
     source: "winget",
   },
+  {
+    name: "WPS Office",
+    id: "Kingsoft.WPSOffice",
+    description:
+      "A comprehensive office suite that includes word processing, spreadsheet, and presentation software.",
+    source: "winget",
+  },
 ];

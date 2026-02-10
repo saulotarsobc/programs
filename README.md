@@ -480,3 +480,13 @@ winget install -e --id "MementoDB.MementoDatabaseDesktop" --source winget;
 
 ---
 
+## 49. **WPS Office**
+
+> A comprehensive office suite that includes word processing, spreadsheet, and presentation software.
+
+```bash
+winget install -e --id "Kingsoft.WPSOffice" --source winget;
+```
+
+---
+
